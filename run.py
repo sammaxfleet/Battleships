@@ -47,17 +47,35 @@ def board (board_width, board_height, shots):
         print("|" + "".join(row) + "|")
     
     print(header)
+def render_battleships(board_width, board_height, battleships):
+    header  = "#" + "-"* board_width + "#"
+    print(header)
 
+#construct empty board
+board = []
+for x in range(board_width):
+    row = []
+    for y in range(board_height):
+        row.append(None)
+    board.append(row)
+
+    print (board)
+    print (header) 
+
+    print(header)
 if __name__ == "__main__":
     battleships = [
             Battleship.build ((1,1), 2, "N"),
-            Battleship.build ((5,8), 2, "S"),
+            Battleship.build ((5,8), 2, "N"),
             Battleship.build ((2,3), 4, "E"),
     ]
 
-    print(battleships)
-
+    for b in battleships:
+        print(b.body)
+        render_battleships(10,10 battleships)
     exit(0)
+
+
     
     shots = []
     while True: 
