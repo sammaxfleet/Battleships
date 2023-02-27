@@ -1,31 +1,15 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+1. Battleships, an Interactive game created for the user to have a bit fun trying to find where the battleships are on the board, marked by an X with their "Shot" which they have endless chances to guess. The locations of the fleets are concealed from the other player.
 
-Welcome sammaxfleet,
+Simple Game Questions at the beginning for user interaction. 
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
 
-## Reminders
+ 1. Ask User the question if they would like to play Battleships?..
+ 2. If yes. Ask if they would like the rules explained?
+ 3. If no..."Take their time & com e back when ready" keeping it user friendly. 
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
 
-## Creating the Heroku app
+The first big question is Where do you want to shoot on the board?...To try and shoot the ships. the Board is 10 by 10. 
+The shot is marked by an "X" making it clear to the User the marked shot. 
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
 
-1. `heroku/python`
-2. `heroku/nodejs`
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!

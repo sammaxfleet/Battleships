@@ -1,5 +1,4 @@
 
-import gspread
 import random 
 
 # Import random package to be able to create random integers within the game
@@ -47,22 +46,24 @@ def board (board_width, board_height, shots):
         print("|" + "".join(row) + "|")
     
     print(header)
-def render_battleships(board_width, board_height, battleships):
+def board_battleships(board_width, board_height, battleships):
     header  = "#" + "-"* board_width + "#"
+
     print(header)
 
-#construct empty board
-board = []
-for x in range(board_width):
-    row = []
-    for y in range(board_height):
-        row.append(None)
-    board.append(row)
+    # Construct empty board 
+    board = []
+    for x in range(board_width):
+        board.append([None for x in range (board_height)])
+
+    # Add the battleships to the board 
+    for b in battleships:
+        for x,y in b.body:
+            board [x][y] = "0"
 
     print (board)
-    print (header) 
+    print (header)
 
-    print(header)
 if __name__ == "__main__":
     battleships = [
             Battleship.build ((1,1), 2, "N"),
@@ -72,7 +73,7 @@ if __name__ == "__main__":
 
     for b in battleships:
         print(b.body)
-        render_battleships(10,10 battleships)
+        board_battleships(10,10, battleships),
     exit(0)
 
 
