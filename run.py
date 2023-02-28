@@ -7,11 +7,9 @@ import random
 print('Hello, Welcome to Battleships2023!')
 ans = input ('Are you ready to play (yes/no)')
 if ans.lower () == 'yes':
-    print('Ok, do you want to review the rules before starting?' )
-if ans.lower () == 'yes':
-print('Ok, Come back when you are ready') 
-
-# Create a class for the gameboard 
+    print('Ok, lets do this' )
+else: 
+    print('Ok, Come back when you are ready') 
 
 class GameBoard(object):
 
@@ -143,7 +141,7 @@ def board (board_width, board_height, shots):
         print("|" + "".join(row) + "|")
     
     print(header)
-# Sorting out the end of the game loop. 
+# Sorting out the end of
 
 if __name__ == "__main__":
     battleships = [
