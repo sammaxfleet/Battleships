@@ -2,14 +2,18 @@
 # Import random package to be able to create random integers within the game
 import random 
 
-#  User friendly interaction before starting game.
+# User interaction at the start of the game.
+# Welcoming the user to the game, giving them the option to also view the rules before they play.
 
-print('Hello, Welcome to Battleships2023!')
-ans = input ('Are you ready to play (yes/no)')
-if ans.lower () == 'yes':
-    print('Ok, lets do this' )
-else: 
-    print('Ok, Come back when you are ready') 
+def RunGame (): 
+    print ("Hello, Welcome to Battleships2023!") 
+    ans = input ('Are you ready to play (yes/no)')
+    if ans.lower () == 'yes':
+        print ('Ok, lets quickly recap the rules before we play!' )
+    
+
+
+#Developing the Gameboard for the user to play on. 
 
 class GameBoard(object):
 
@@ -43,15 +47,9 @@ class GameBoard(object):
         return True 
 
         # For each battleship, is it destroyed? 
-        # If yes for all, return True, else False 
+        # If yes for all, return True, else False. 
 
-class Shot (object): 
-
-    def __init__(self, location, is_hit):
-        self.location = location
-        self.is_hit = is_hit
-
-
+    
 
  #Battleship Building & layout. 
 
@@ -89,6 +87,7 @@ class Battleship(object):
         return all(self.hits)
 
 #Game Render 
+
 def render(game_board, show_battleships=False):
     header  = "#" + "-"* game_board.board_width + "#"
     print(header)
@@ -122,7 +121,7 @@ def render(game_board, show_battleships=False):
     print(header)
 
 
-#Just specifically for the position of the board
+# Make the Board then get player input 
 
 def board (board_width, board_height, shots): 
     header  = "#" + "-"* board_width + "#"
@@ -130,7 +129,7 @@ def board (board_width, board_height, shots):
 
     shots_set = set(shots)
     for y in range(board_height):
-        row = []
+        row = ""
         for x in range(board_width):
             if (x,y) in shots_set: 
                 ch = "X"
@@ -141,13 +140,13 @@ def board (board_width, board_height, shots):
         print("|" + "".join(row) + "|")
     
     print(header)
-# Sorting out the end of
 
-if __name__ == "__main__":
-    battleships = [
+
+    if __name__ == "__main__":
+        battleships = [
             Battleship.build ((1,1), 2, "N"),
-            #Battleship.build ((5,8), 2, "N"),
-           # Battleship.build ((2,3), 4, "E"),
+            Battleship.build ((5,8), 2, "N"),
+            Battleship.build ((2,3), 4, "E"),
     ]
 
     for b in battleships:
@@ -157,6 +156,7 @@ if __name__ == "__main__":
 
     while True: 
         inp = input("Whereabouts do you want to shoot your misile onto the board?\n")
+        #User could give bad input need to sort 
         xstr, ystr = inp.split (",")
         x = int(xstr)
         y = int(ystr)
@@ -167,7 +167,7 @@ if __name__ == "__main__":
         if game_board.is_game_over():
             print("YOU WIN!")
             break
-
+print (board)
 
         #if game_has_ended: 
         #   print "YOU WIN"
