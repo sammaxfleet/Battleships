@@ -1,9 +1,19 @@
+
+#outline for the board & ineraction with the user
+
 import random
 
-def render(board_width, board_height):
+def board_layout(board_width, board_height):
     print("#" + "-" * board_width + "#")
+
+    for i in range(board_height):
+        print("|" + " " * board_width + "|")
+    
+    footer = ("#" + "-" * board_width + "#")
+    print (footer)
+        
 if __name__ == "__main__":
-    render (10,10)
+    board_layout (10,10)
     inp= input ("Where on the board do you want to shoot your missile?..\n")
     xstr, ystr = inp.split (",")
     x = int(xstr)
