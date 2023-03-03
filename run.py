@@ -1,6 +1,5 @@
 import random
-
-#User Interaction 1
+    #User Interaction Section 1.
 def run_game():
     print ("Hi welcome to Battleships 2023!") 
     ans = input ("Do you wish to review the rules before playing? (yes/no)")
@@ -10,8 +9,32 @@ def run_game():
     elif ans == "no":
             print ("Ok, come back when you're ready.")
 run_game()    
+#Section 3- How to represent the battleships.
+class Battleship(object):  
 
-#Board Layout & Shots.
+    @staticmethod
+    def build(top, length, direction):
+        body = []
+        for i in range(length):
+            if direction == "UP":
+                el = (top[0], top[1] - i)
+            elif direction == "DOWN":
+                el = (top[0], top[1] + i)
+            elif direction == "LEFT":
+                el = (top[0] -i, top[1])
+            elif direction == "RIGHT":
+                el = (top[0] +i, top[1])
+
+            body.append(el) 
+
+        print(body)
+
+    def __init__(self, body):
+        self.body = body
+
+
+
+#Board Layout & Shots. Section 2 
 
 def board_layout(board_width, board_height, shots):
     print("#" + "-" * board_width + "#")
@@ -31,13 +54,26 @@ def board_layout(board_width, board_height, shots):
     footer = ("#" + "-" * board_width + "#")
     print(footer)
 
+#User interaction 2 & continuation of plotting board & shots  #section 3b 
 
-
-        #User interaction 2 & continuation of plotting board & shots 
 if __name__ == "__main__":
-    board_layout (10,10, [(3,1), (4,5), (8,1)])
+    battleships = [
+            Battleship.build ((1,1), 2, "UP"),
+            Battleship.build ((5,8), 2, "UP"),
+            Battleship.build ((2,3), 4, "RIGHT"),]
 
-    inp= input ("Where on the board do you want to shoot your missile?..\n")
-    xstr, ystr = inp.split (",")
-    x = int(xstr)
-    y = int(ystr)
+for b in battleships:
+    print (b.body)
+
+#section 2b
+    shots = []
+
+    while True:
+        inp= input ("Where on the board do you want to shoot your missile?..\n")
+        xstr, ystr = inp.split (",")
+        x = int(xstr)
+        y = int(ystr)
+
+        shots.append((x,y))
+        board_layout (10, 10, shots)
+    
