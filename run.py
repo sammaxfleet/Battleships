@@ -38,6 +38,7 @@ class Battleship(object):
 
 def board_layout(board_width, board_height, shots):
     print("#" + "-" * board_width + "#")
+    print(header)
 
     for y in range(board_height):
         row = []
@@ -54,16 +55,40 @@ def board_layout(board_width, board_height, shots):
     footer = ("#" + "-" * board_width + "#")
     print(footer)
 
-#User interaction 2 & continuation of plotting board & shots  #section 3b 
+# Putting the battleships onto the board 
+def render(board_width, bard_height, battleships):
+    header("#" + "-" * board_width + "#")
+    print(header)
+    footer = ("#" + "-" * board_width + "#")
+    print(footer)
+    board = []
+    board.append in b.body ([None for y in range (board_height)])
+    board.append in b.body ([None for x in (board_width)])
+    for b in battleships:
+        for x, y in b.body:
+            board [x][y] = "0"
 
+    for y in board_height_:
+        row = []
+        for x in range(board_width):
+            row.append(board[x][y] or " ")
+        print("|" + "".join(row) + "|")
+
+    print(header)
+   
+
+
+#User interaction 2 & continuation of plotting board & shots  #section 3b 
 if __name__ == "__main__":
     battleships = [
             Battleship.build ((1,1), 2, "UP"),
-            Battleship.build ((5,8), 2, "UP"),
+            Battleship.build ((5,8), 3, "UP"),
             Battleship.build ((2,3), 4, "RIGHT"),]
 
-for b in battleships:
-    print (b.body)
+    for b in battleships:
+        print (b.body)
+
+    render(10,10, battleships)
 
 #section 2b
     shots = []
