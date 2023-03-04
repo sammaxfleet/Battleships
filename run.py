@@ -9,7 +9,7 @@ def run_game():
     elif ans == "no":
             print ("Ok, come back when you're ready.")
 run_game()    
-#Section 3- How to represent the battleships.
+#Section 3- How to represent the battleships & the rules/ data structures. 
 class Battleship(object):  
 
     @staticmethod
@@ -26,11 +26,21 @@ class Battleship(object):
                 el = (top[0] +i, top[1])
 
             body.append(el) 
-
+        return Battleship(body)
         print(body)
 
     def __init__(self, body):
         self.body = body
+#User interaction 2 & continuation of plotting board & shots  #section 3b 
+if __name__ == "__main__":
+    battleships = [
+    Battleship.build ((1,1), 2, "UP"),
+    Battleship.build ((5,8), 3, "UP"),
+    Battleship.build ((2,3), 4, "RIGHT"),]
+        
+    for b in battleships:
+        print (b.body)
+
 
 
 
@@ -49,13 +59,11 @@ def board_layout(board_width, board_height, shots):
                 ch = " "
             row.append(ch)
         print("|" + "".join(row) + "|")
-
-        #print("|" + " " * board_width + "|")
     
     footer = ("#" + "-" * board_width + "#")
     print(footer)
 
-# Putting the battleships onto the board 
+# Putting the battleships onto the board  
 def render(board_width, bard_height, battleships):
     header("#" + "-" * board_width + "#")
     print(header)
@@ -76,20 +84,6 @@ def render(board_width, bard_height, battleships):
 
     print(header)
    
-
-
-#User interaction 2 & continuation of plotting board & shots  #section 3b 
-if __name__ == "__main__":
-    battleships = [
-            Battleship.build ((1,1), 2, "UP"),
-            Battleship.build ((5,8), 3, "UP"),
-            Battleship.build ((2,3), 4, "RIGHT"),]
-
-    for b in battleships:
-        print (b.body)
-
-    render(10,10, battleships)
-
 #section 2b
     shots = []
 
