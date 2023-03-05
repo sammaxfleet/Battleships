@@ -32,6 +32,9 @@ Stages of the game needed to create.
 
 
 
-Flow chart example.-
+Flow chart example.
+
+<img src = "Screenshots/Screenshot 2023-03-05 at 15.34.15.png" > 
+
 
 
