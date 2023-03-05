@@ -41,9 +41,6 @@ if __name__ == "__main__":
     for b in battleships:
         print (b.body)
 
-
-
-
 #Board Layout & Shots. Section 2 
 
 def board_layout(board_width, board_height, shots):
@@ -95,4 +92,3 @@ def render(board_width, bard_height, battleships):
 
         shots.append((x,y))
         board_layout (10, 10, shots)
-    
