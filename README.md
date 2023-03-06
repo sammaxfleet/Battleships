@@ -32,6 +32,26 @@ Stages of the game needed to create.
 
 
 
-Flow chart example.-
+Flow chart example -
+
+<img src = "images/screenshot1.png">
+
+
+Credits
+
+Youtube tutorial- Battleships
+https://www.youtube.com/watch?v=Gi0Fdyhk1_0&t=511s
+
+Stackoverflow was great resource.
+
+
+Testing
+
+Pep8online checker
+& https://extendsclass.com/python-tester.html.
+
+
+
+Deployment & Error Handling. 
 
 
