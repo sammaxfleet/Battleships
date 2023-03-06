@@ -47,10 +47,10 @@ Stackoverflow was great resource.
 
 Testing
 
-Pep8online checker
-& https://extendsclass.com/python-tester.html.
+PEP 8
+https://extendsclass.com/python-tester.html
 
-
+<img src = "img/screenshot2.png">
 
 Deployment & Error Handling. 
 
