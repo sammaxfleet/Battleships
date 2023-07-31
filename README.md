@@ -1,5 +1,12 @@
 # BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.
 
+- [BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.](#battleships-game-portfolio-project-3---python-essentials)
+- [Purpose of the project & description](#purpose-of-the-project---description)
+- [Game creation breakdown.](#game-creation-breakdown)
+- [Flow chart example -](#flow-chart-example--)
+- [Credits](#credits)
+- [Testing](#testing)
+
 
 # Purpose of the project & description
 
