@@ -1,7 +1,7 @@
-BATTLESHIPS.
+# BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.
 
-Portfolio Project 3 - Python Essentials.
-Purpose of the project & description of game created.
+
+# Purpose of the project & description
 
 
 The purpose of this project was to build an interactive brain game for a user to play against the computer.
@@ -14,7 +14,7 @@ After 10 goes it restarts from the top of the game.
 Giving the user the chance of guessing over 100 squares on the grid, there's 3 battleships which take up approximately 10 squares. So there's a good ratio of possiblity for the player but it also makes it a fun challenge. 
 
 
-Game creation breakdown, coding the syntax. 
+# Game creation breakdown.
 
 Stages of the game needed to create.  
 
@@ -32,12 +32,12 @@ Stages of the game needed to create.
 
 
 
-Flow chart example -
+# Flow chart example -
 
 <img src = "images/screenshot1.png">
 
 
-Credits
+# Credits
 
 Youtube tutorial- Battleships
 https://www.youtube.com/watch?v=Gi0Fdyhk1_0&t=511s
@@ -45,7 +45,7 @@ https://www.youtube.com/watch?v=Gi0Fdyhk1_0&t=511s
 Stackoverflow was great resource.
 
 
-Testing
+# Testing
 
 PEP 8
 https://extendsclass.com/python-tester.html
