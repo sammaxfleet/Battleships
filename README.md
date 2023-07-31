@@ -8,7 +8,7 @@
 - [Testing](#testing)
 
 
-# Purpose of the project & description
+# Purpose of the project & description.
 
 
 The purpose of this project was to build an interactive brain game for a user to play against the computer.
