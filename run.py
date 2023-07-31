@@ -47,6 +47,7 @@ class Battleship(object):
 def board_layout(board_width, board_height, shots):
     header = ("#" + "-" * board_width + "#")
     print(header)
+    
 
     for y in range(board_height):
         row = []
@@ -60,7 +61,10 @@ def board_layout(board_width, board_height, shots):
             row.append (ch)
             column.append (ch)
         print("|" + "".join(row) + "|")
-    
+        
+    footer = ("#" + "-" * board_width + "#")
+    print(footer)
+        
         
     
 #Building the battleships & Shots continued 
@@ -70,7 +74,7 @@ if __name__ == "__main__":
     shots = []
     while True:
 
-        inp= input ("Where on the board do you want to shoot your missile?..\n")
+        inp= input ("\nWhere on the board do you want to shoot your missile?..\n")
         xstr, ystr = inp.split (",")
         x = int(xstr)
         y = int(ystr)
