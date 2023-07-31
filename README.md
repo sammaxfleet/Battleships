@@ -21,6 +21,28 @@ After 10 goes it restarts from the top of the game.
 Giving the user the chance of guessing over 100 squares on the grid, there's 3 battleships which take up approximately 10 squares. So there's a good ratio of possiblity for the player but it also makes it a fun challenge. 
 
 
+# Features
+
+## Welcome Message 
+<img width="728" alt="Screenshot 2023-07-31 at 14 57 35" src="https://github.com/sammaxfleet/Battleships/assets/114914739/47fc9ea7-c9cf-4bdb-a237-adf1d40686be">
+
+  A Welcome message, directing the user to read the rules pre playing. If you choose another option than yes/no on the keyboard number or letter it will not work.
+
+<img width="1029" alt="Screenshot 2023-07-31 at 15 14 20" src="https://github.com/sammaxfleet/Battleships/assets/114914739/f30aec9c-1c35-4187-9469-84dcd3881660">
+
+The Rules are then displayed to give the user a breakdown of how the game works before the button bashing begins. 
+
+
+<img width="426" alt="Screenshot 2023-07-31 at 15 16 57" src="https://github.com/sammaxfleet/Battleships/assets/114914739/ac5b5860-edfb-4926-be4f-7016a20f1ab0">
+
+For example the Missile above is fired at 1,1. The 4 represents the shot being succesful. 
+
+
+
+
+
+
+
 # Game creation breakdown.
 
 Stages of the game needed to create.  
