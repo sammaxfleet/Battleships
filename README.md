@@ -1,5 +1,15 @@
 BATTLESHIPS.
 
+User Stories to achieve
+
+1. Make a board
+2. Get input from player
+3. Say if shot isn't on the board
+4. explain rules
+5. have symbols defined for game
+6. 
+
+
 Portfolio Project 3 - Python Essentials.
 Purpose of the project & description of game created.
 

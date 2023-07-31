@@ -16,11 +16,14 @@ def run_game():
             print ('You did not say yes/no. Please try again.')
             continue
 
+
 run_game()    
 #Section 3- How to represent the battleships on the board. & the rules/ data structures. 
+
 class Battleship(object):  
 
     @staticmethod
+    
     def build(top, length, direction):
         body = []
         for i in range(length):
@@ -47,18 +50,18 @@ def board_layout(board_width, board_height, shots):
 
     for y in range(board_height):
         row = []
-        column = []
+        
         for x in range(board_width):
+            column = []
             if (x,y) in shots:
                 ch = "4"
             else:
                 ch = " "
-            row.append(ch)
+            row.append (ch)
             column.append (ch)
         print("|" + "".join(row) + "|")
     
-        footer = ("#" + "-" * board_width + "#")
-        print(footer)
+        
     
 #Building the battleships & Shots continued 
 
