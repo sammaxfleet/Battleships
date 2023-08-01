@@ -61,4 +61,19 @@ def get_user_guess():
         print("Invalid input. Please enter numbers between 0 and 7.")
         return get_user_guess()
 
+def is_hit(grid, row, col):
+    return grid[row][col] == 'X'
 
+def play_game(grid):
+    print("Let's play Battleships!")
+    print("Try to sink the computer's ships.")
+    while True:
+        print_grid(grid)
+        user_guess_row, user_guess_col = get_user_guess()
+        
+        if is_hit(grid, user_guess_row, user_guess_col):
+            print("Congratulations! You hit the computer's ship!")
+            grid[user_guess_row][user_guess_col] = 'H'
+        else:
+            print("You missed the computer's ship!")
+            grid[user_guess_row][user_guess_col] = 'M'
