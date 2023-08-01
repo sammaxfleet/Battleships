@@ -24,3 +24,18 @@ def print_grid(grid):
     for i, row in enumerate(grid):
         print(f"| {' '.join(row)} |")
     print(" +" + "-+" * len(grid))
+
+def place_user_ships(grid):
+    NUM_USER_SHIPS = 3
+    for _ in range(NUM_USER_SHIPS):
+        while True:
+            try:
+                row = int(input(f"Enter the row for your Ship {_+1} (0-{GRID_SIZE-1}): "))
+                col = int(input(f"Enter the col for your Ship {_+1} (0-{GRID_SIZE-1}): "))
+                if 0 <= row < GRID_SIZE or 0 <= col < GRID_SIZE:
+                    place_ship(grid, row, col)
+                    break
+                else:
+                    print("Invalid input. Try again.")
+            except ValueError:
+                print("Invalid input. Try again.")
