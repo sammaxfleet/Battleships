@@ -1,23 +1,12 @@
-import random
-    #User Interaction/Rules Section 1.
-def run_game():
-    print ("Hi welcome to Battleships Game 2023!") 
-    
-    while True:
-        ans = input ("The rules are needed to be reviewed before starting the game, are you ready to see them? (yes/no)")
-        if ans == 'yes':
-            print("Rules...\n","1.The Battleship Board has a 10 by 10 layout \n", "2.To take your shot at the board type a number followed a comma followed by another number, example... 1,1 \n", "3.The battleships are invisible, the board will tell you if your shot has hit by using a 4... a missed shot will be represented by a * \n " "4..You can play as many times as you wish.")
-            break
+import random # allows us to generate random numbers from any to any 
 
-        elif ans == 'no':
-            print ("Ok, come back when you're ready.")
-            continue
-        else:
-            print ('You did not say yes/no. Please try again.')
-            continue
 
+# To draw the grid for the game
 def create_grid(size):
     return [[' ' for _ in range(size)] for _ in range(size)]
+
+   
+# prints grid to the terminal with chosen patterns
 
 def print_grid(grid):
     print(" +" + "-+" * len(grid))
@@ -25,6 +14,12 @@ def print_grid(grid):
         print(f"| {' '.join(row)} |")
     print(" +" + "-+" * len(grid))
 
+# Then represntation of the shot the user take for the battleship placement.
+
+def place_ship(grid, row, col):
+    grid[row][col] = 'X'
+
+# where you place the user ship on the grid. Loop asking the user to generate the positions for the 3 ships it keeps going until complete.
 def place_user_ships(grid):
     NUM_USER_SHIPS = 3
     for _ in range(NUM_USER_SHIPS):
@@ -32,7 +27,7 @@ def place_user_ships(grid):
             try:
                 row = int(input(f"Enter the row for your Ship {_+1} (0-{GRID_SIZE-1}): "))
                 col = int(input(f"Enter the col for your Ship {_+1} (0-{GRID_SIZE-1}): "))
-                if 0 <= row < GRID_SIZE or 0 <= col < GRID_SIZE:
+                if 0 <= row < GRID_SIZE  and 0 <= col < GRID_SIZE:
                     place_ship(grid, row, col)
                     break
                 else:
@@ -40,13 +35,15 @@ def place_user_ships(grid):
             except ValueError:
                 print("Invalid input. Try again.")
 
-
+# placing the computer ship, where they are positioned before the game starts. 
 def place_computer_ship(grid):
     NUM_COMPUTER_SHIPS = 3
     for _ in range(NUM_COMPUTER_SHIPS):
         row = random.randint(0, GRID_SIZE - 1)
         col = random.randint(0, GRID_SIZE - 1)
-        place_ship(grid, row, col)
+        place_ship(grid, 0, col)
+
+# get the shot from the user. 
 
 def get_user_guess():
     try:
@@ -61,8 +58,13 @@ def get_user_guess():
         print("Invalid input. Please enter numbers between 0 and 7.")
         return get_user_guess()
 
+# if it's hit or not with the X.
+
 def is_hit(grid, row, col):
     return grid[row][col] == 'X'
+
+
+# play game function to start the game.
 
 def play_game(grid):
     print("Let's play Battleships!")
@@ -77,3 +79,19 @@ def play_game(grid):
         else:
             print("You missed the computer's ship!")
             grid[user_guess_row][user_guess_col] = 'M'
+
+# main function to launch entie script 
+
+if __name__ == "__main__":
+    # Allow the user to set the grid size
+    GRID_SIZE = int(input("Enter the grid size (e.g., 8): "))
+    
+    # Create the game grid
+    grid = create_grid(GRID_SIZE)
+    
+    # Place user and computer ships
+    place_user_ships(grid)
+    place_computer_ship(grid)
+    
+    # Play the game
+    play_game(grid)
