@@ -16,3 +16,11 @@ def run_game():
             print ('You did not say yes/no. Please try again.')
             continue
 
+def create_grid(size):
+    return [[' ' for _ in range(size)] for _ in range(size)]
+
+def print_grid(grid):
+    print(" +" + "-+" * len(grid))
+    for i, row in enumerate(grid):
+        print(f"| {' '.join(row)} |")
+    print(" +" + "-+" * len(grid))
