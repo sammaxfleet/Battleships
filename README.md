@@ -48,35 +48,47 @@ There's 3 battleships placed Invisibly on the board, the user then has 10 tries 
 A quick, swift intro! The Welcome message goes straight to the point, asking the user if they're ready for the Rules?..
 
 If no...
-
+# Rules
 <img width="766" alt="Screenshot 2023-08-02 at 13 32 56" src="https://github.com/sammaxfleet/Battleships/assets/114914739/ecfaa24d-c070-4657-af60-32425bf3ab62">
 A polite message is left, 
 With the rules question still appearing to encourage the user to play. 
 
 If Yes...
 
+
 <img width="1125" alt="Screenshot 2023-08-02 at 13 34 51" src="https://github.com/sammaxfleet/Battleships/assets/114914739/6fbc40ce-a019-49a5-8d27-a0258f4b429b">
 
-The rules are explained in bullet points, four bullet points, keeping the logic short and to the point 
-.
+The rules are explained in bullet points, four bullet points, keeping the logic short and to the point.
 
+# Grid 
+The Grid Size & Game Begins
+
+<img width="282" alt="Screenshot 2023-08-02 at 15 32 02" src="https://github.com/sammaxfleet/Battleships/assets/114914739/44f4cd13-9654-4dcb-a647-17de65877c35">
+
+# Shots 
+As you shoot it either gets represented by an M or a H
+<img width="272" alt="Screenshot 2023-08-02 at 15 33 31" src="https://github.com/sammaxfleet/Battleships/assets/114914739/a00d65d7-3a01-4fb6-96c1-3962b3278574">
 
 
 # Game creation breakdown.
 
-Stages of the game needed to create.  
 
+Comments from the code on how it was created. 
 
-  1. Create a welcoming introduction to the game with user response.
-  2. Ask the user if they wish to view the rules to continue on playing. 
-  3. Once explained- ask the user where they want to shoot on the board?
-  4. Create the board 10x10. 
-  5. Mark the shots by a “4” and misses by a “*”.
-  6. Create the battleships/ decide what they look like.
-  7. Hide the battleships from the user.
-  8. Run the game in a loop of 10 shots, then let go back to the beginning. 
-  9. Set a game over so they user can start again from the beginning with either a  Win/ 
-    Loss print. 
+ - User Interaction/Rules Section 1.
+
+ - Function for Grid Size Section 2.
+
+ - Grid styling
+
+ - Battleship Placement 
+
+ - User input
+
+ - Hits or Misses
+
+ - Loop game after 10 tries. 
+ 
 
 
 
