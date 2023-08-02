@@ -1,5 +1,6 @@
 # BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.
 
+Things I've worked on since the last 
 
 User Stories to achieve:
 
@@ -91,7 +92,6 @@ Comments from the code on how it was created.
  
 
 
-
 # Flow chart example -
 
 <img src = "images/screenshot1.png">
@@ -111,10 +111,15 @@ Comments from the code on how it was created.
 # Testing
 
 PEP 8
+
 https://extendsclass.com/python-tester.html
+
+https://pep8ci.herokuapp.com/#
 
 <img src = "img/screenshot2.png">
 
-Deployment & Error Handling. 
+
+Deployment & Error Handling 
+
 
 
