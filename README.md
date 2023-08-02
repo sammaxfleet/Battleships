@@ -1,17 +1,14 @@
-BATTLESHIPS.
+# BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.
 
-User Stories to achieve
-
-1. Make a board
-2. Get input from player
-3. Say if shot isn't on the board
-4. explain rules
-5. have symbols defined for game
-6. 
+- [BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.](#battleships-game-portfolio-project-3---python-essentials)
+- [Purpose of the project & description](#purpose-of-the-project---description)
+- [Game creation breakdown.](#game-creation-breakdown)
+- [Flow chart example -](#flow-chart-example--)
+- [Credits](#credits)
+- [Testing](#testing)
 
 
-Portfolio Project 3 - Python Essentials.
-Purpose of the project & description of game created.
+# Purpose of the project & description.
 
 
 The purpose of this project was to build an interactive brain game for a user to play against the computer.
@@ -24,7 +21,29 @@ After 10 goes it restarts from the top of the game.
 Giving the user the chance of guessing over 100 squares on the grid, there's 3 battleships which take up approximately 10 squares. So there's a good ratio of possiblity for the player but it also makes it a fun challenge. 
 
 
-Game creation breakdown, coding the syntax. 
+# Features
+
+## Welcome Message 
+<img width="728" alt="Screenshot 2023-07-31 at 14 57 35" src="https://github.com/sammaxfleet/Battleships/assets/114914739/47fc9ea7-c9cf-4bdb-a237-adf1d40686be">
+
+  A Welcome message, directing the user to read the rules pre playing. If you choose another option than yes/no on the keyboard number or letter it will not work.
+
+<img width="1029" alt="Screenshot 2023-07-31 at 15 14 20" src="https://github.com/sammaxfleet/Battleships/assets/114914739/f30aec9c-1c35-4187-9469-84dcd3881660">
+
+The Rules are then displayed to give the user a breakdown of how the game works before the button bashing begins. 
+
+
+<img width="426" alt="Screenshot 2023-07-31 at 15 16 57" src="https://github.com/sammaxfleet/Battleships/assets/114914739/ac5b5860-edfb-4926-be4f-7016a20f1ab0">
+
+For example the Missile above is fired at 1,1. The 4 represents the shot being succesful. 
+
+
+
+
+
+
+
+# Game creation breakdown.
 
 Stages of the game needed to create.  
 
@@ -42,12 +61,12 @@ Stages of the game needed to create.
 
 
 
-Flow chart example -
+# Flow chart example -
 
 <img src = "images/screenshot1.png">
 
 
-Credits
+# Credits
 
 Youtube tutorial- Battleships
 https://www.youtube.com/watch?v=Gi0Fdyhk1_0&t=511s
@@ -55,7 +74,7 @@ https://www.youtube.com/watch?v=Gi0Fdyhk1_0&t=511s
 Stackoverflow was great resource.
 
 
-Testing
+# Testing
 
 PEP 8
 https://extendsclass.com/python-tester.html
