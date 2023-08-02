@@ -1,6 +1,13 @@
 # BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.
 
-Things I've worked on since the last 
+Things I've worked on since the last submission.
+
+I've kept the welcome message the same, but added the grid question for the user to be able to change the grid size.
+From here the game in my opinion is fully functional. 
+Before the shots at the board were working but there was no battleships.
+I've made the battleships invisible, and looped the game so it has a try of 10 shots. 
+I've tried to focus on smoother testing and deployment. 
+
 
 User Stories to achieve:
 
