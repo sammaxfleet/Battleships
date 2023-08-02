@@ -64,11 +64,18 @@ The rules are explained in bullet points, four bullet points, keeping the logic 
 # Grid 
 The Grid Size & Game Begins
 
-<img width="282" alt="Screenshot 2023-08-02 at 15 32 02" src="https://github.com/sammaxfleet/Battleships/assets/114914739/44f4cd13-9654-4dcb-a647-17de65877c35">
+<img width="298" alt="Screenshot 2023-08-02 at 20 45 15" src="https://github.com/sammaxfleet/Battleships/assets/114914739/68f9aa12-1849-4431-ae7e-7534e508f7d6">
+
 
 # Shots 
 As you shoot it either gets represented by an M or a H
-<img width="272" alt="Screenshot 2023-08-02 at 15 33 31" src="https://github.com/sammaxfleet/Battleships/assets/114914739/a00d65d7-3a01-4fb6-96c1-3962b3278574">
+
+<img width="119" alt="Screenshot 2023-08-02 at 20 45 59" src="https://github.com/sammaxfleet/Battleships/assets/114914739/fb12ebc9-fe5d-43a0-a8ca-a5c029497416">
+
+The games loops upto 10 tgoes o try and hit all 3 battleships, then resets. 
+
+<img width="768" alt="Screenshot 2023-08-02 at 20 47 42" src="https://github.com/sammaxfleet/Battleships/assets/114914739/8b47f69a-e7ef-4e7d-a170-ca6a314d46c7">
+
 
 
 # Game creation breakdown.
