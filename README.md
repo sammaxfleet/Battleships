@@ -1,5 +1,19 @@
 # BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.
 
+<<<<<<< HEAD
+User Stories to achieve
+
+1. Make a board
+2. Get input from player
+3. Say if shot isn't on the board
+4. explain rules
+5. have symbols defined for game
+6. 
+
+
+Portfolio Project 3 - Python Essentials.
+Purpose of the project & description of game created.
+=======
 - [BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.](#battleships-game-portfolio-project-3---python-essentials)
 - [Purpose of the project & description](#purpose-of-the-project---description)
 - [Game creation breakdown.](#game-creation-breakdown)
@@ -9,6 +23,7 @@
 
 
 # Purpose of the project & description.
+>>>>>>> 87fb1c317d72b475cf61e685ef71dc0c42442d17
 
 
 The purpose of this project was to build an interactive brain game for a user to play against the computer.
