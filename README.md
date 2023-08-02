@@ -1,5 +1,7 @@
 # BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.
 
+Heroku link - https://battleships2023.herokuapp.com/
+
 Things I've worked on since the last submission.
 
 I've kept the welcome message the same, but added the grid question for the user to be able to change the grid size.
@@ -124,6 +126,8 @@ Comments from the code on how it was created.
 
 # Testing
 
+
+
 PEP 8
 
 https://extendsclass.com/python-tester.html
@@ -134,6 +138,9 @@ https://pep8ci.herokuapp.com/#
 
 
 Deployment & Error Handling 
+
+Heroku- The Game is fully functional and deployed by Heroku. 
+<img width="740" alt="Screenshot 2023-08-02 at 21 01 54" src="https://github.com/sammaxfleet/Battleships/assets/114914739/fdb3fcd1-6ccf-49db-98cb-d9d8c3b347ba">
 
 
 
