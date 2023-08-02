@@ -1,20 +1,20 @@
 import random
+import json
+import os
 
-
-#User Interaction/Rules Section 1.
+number_of_tries = 0
+# User Interaction/Rules Section 1.
 def run_game():
+    if os.path.exists("ship_positions.json"):
+        os.remove("ship_positions.json")
     print("Hi welcome to Battleships Game 2023!")
     while True:
-        ans = input(
-            "The rules are needed to be reviewed before starting the game, are you ready to view them? (yes/no)"
-        ).lower() 
+        ans = input("The rules are needed to be reviewed before starting the game, are you ready to see them? (yes/no)")
         if ans == 'yes':
-            print(
-                "Rules...\n",
-                "1.You choose the width & length of the board, the maximum it can be is by 8",
-                "2.Guess row, then Guess column, (The bracketed amount is the max number).\n",
-                "3.The battleships are invisible. \n The board will tell you if your shot has hit by using a H for hit or an M for Miss* \n "
-                "4..The game goes upto 10, you can play as many times as you wish.")
+            print("Rules...\n","1.The Battleship Board has a 10 by 10 layout \n", 
+                  "2.To take your shot at the board type a number followed by a comma followed by another number, example... 1,1 \n", 
+                  "3.The battleships are invisible, the board will tell you if your shot has hit by using a 4... a missed shot will be represented by a * \n", 
+                  "4.You can play as many times as you wish.")
             break
         elif ans == 'no':
             print("Ok, come back when you're ready.")
@@ -23,39 +23,54 @@ def run_game():
             print('You did not say yes/no. Please try again.')
             continue
 
-
-def create_grid(size):
-    return [[' ' for _ in range(size)] for _ in range(size)]
-
+def create_grid(size, ship_positions=None):
+    if ship_positions is None:
+        ship_positions = set()
+    return [[(' ' if (r, c) not in ship_positions else 'X') for c in range(size)] for r in range(size)]
 
 def print_grid(grid):
     print(" +" + "-+" * len(grid))
     for i, row in enumerate(grid):
-        print(f"| {' '.join(row)} |")
+        print(f"| {' '.join(cell if cell != 'X' else ' ' for cell in row)} |")
     print(" +" + "-+" * len(grid))
 
-
 def place_ship(grid, row, col):
-    grid[random.randint(0, row)][random.randint(0, col)] = 'X'
-
+    grid[row][col] = 'X'
 
 def place_computer_ship(grid):
     NUM_COMPUTER_SHIPS = 3
-    placed_ships = set()
+
+    # Load ship positions from JSON file or create an empty set if the file doesn't exist
+    try:
+        with open('ship_positions.json', 'r') as json_file:
+            ship_positions = set(tuple(pos) for pos in json.load(json_file))
+    except FileNotFoundError:
+        ship_positions = set()
+
+    # Place computer ships on the grid
     for _ in range(NUM_COMPUTER_SHIPS):
         while True:
             row = random.randint(0, GRID_SIZE - 1)
             col = random.randint(0, GRID_SIZE - 1)
-            if (row, col) not in placed_ships:
+            if (row, col) not in ship_positions:
                 place_ship(grid, row, col)
-                placed_ships.add((row, col))
+                ship_positions.add((row, col))
                 break
 
+    # Save ship positions to the JSON file (using 0-based coordinates)
+    with open('ship_positions.json', 'w') as json_file:
+        json.dump(list(ship_positions), json_file)
 
 def get_user_guess():
+    global number_of_tries
     try:
+        if number_of_tries == 10:
+            print("GameOver")
+            number_of_tries = 0
+            run_game()
         guess_row = int(input(f"Guess Row (0-{GRID_SIZE-1}): "))
         guess_col = int(input(f"Guess Col (0-{GRID_SIZE-1}): "))
+        number_of_tries += 1
         if 0 <= guess_row < GRID_SIZE and 0 <= guess_col < GRID_SIZE:
             return guess_row, guess_col
         else:
@@ -65,9 +80,13 @@ def get_user_guess():
         print("Invalid input. Please enter numbers between 0 and 7.")
         return get_user_guess()
 
-
 def is_hit(grid, row, col):
-    return grid[row][col] == 'X'
+    # Load ship positions from JSON file
+    with open('ship_positions.json', 'r') as json_file:
+        ship_positions = set(tuple(pos) for pos in json.load(json_file))
+
+    return (row, col) in ship_positions
+
 
 
 def play_game(grid):
@@ -84,7 +103,6 @@ def play_game(grid):
             print("You missed the computer's ship!")
             grid[user_guess_row][user_guess_col] = 'M'
 
-
 if __name__ == "__main__":
     # Allow the user to set the grid size
     run_game()
@@ -96,5 +114,5 @@ if __name__ == "__main__":
     # Place user and computer ships
     place_computer_ship(grid)
 
-    # Play the game
+    # Play the game using the loaded grid
     play_game(grid)
