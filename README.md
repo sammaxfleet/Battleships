@@ -1,14 +1,19 @@
 # BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.
 
-<<<<<<< HEAD
-User Stories to achieve
 
-1. Make a board
-2. Get input from player
-3. Say if shot isn't on the board
-4. explain rules
-5. have symbols defined for game
-6. 
+User Stories to achieve:
+
+User Sories 
+
+1. Make a board your own size with a Maximum of 8. 
+2. Fire shots at the board & decide how they register.
+3. Decide how the battleships are represented & randomise hits for each game. 
+4. Make Battleships invisble for game.
+5. Say if shot isn't on the board with a 'H' for hit or 'M' for miss.
+6. Explain the Rules to the User. 
+7. Make the flow of the game feel user friendly .
+8. Loop the game X 10.
+   
 
 
 Portfolio Project 3 - Python Essentials.
@@ -25,36 +30,35 @@ Purpose of the project & description of game created.
 # Purpose of the project & description.
 >>>>>>> 87fb1c317d72b475cf61e685ef71dc0c42442d17
 
+The purpose of this project is to build an interactive brain game for a user to play against the computer.
+The game is simple, and repeats in a loop of 10 tries then it restarts.
+The grid size is chosen by the user. The maximum it's set to is a grid of 8, if a harder game was to be functioned it could go to 25 for example. 
+The rules are explained at the beginning to give the user clear instruction. 
+There's 3 battleships placed Invisibly on the board, the user then has 10 tries to hit the battleships with their missile which is represented by a H for hit 
+& an M for Miss. 
 
-The purpose of this project was to build an interactive brain game for a user to play against the computer.
-
-The locations of the fleets are concealed from the other player in this case the user is playing against the computer. I've started off my game by having some simple interacative questions with the User welcoming them, which then leads to the big question of the game ." Where do you want to shoot on the board?". The User taking a shot at the battleship which is represnentd by a "4".
-a "*" represents a miss
-a "4" represents a hit.
-THe board is default 10x10 column and rows which is explained within the rules.
-After 10 goes it restarts from the top of the game. 
-Giving the user the chance of guessing over 100 squares on the grid, there's 3 battleships which take up approximately 10 squares. So there's a good ratio of possiblity for the player but it also makes it a fun challenge. 
 
 
 # Features
 
 ## Welcome Message 
-<img width="728" alt="Screenshot 2023-07-31 at 14 57 35" src="https://github.com/sammaxfleet/Battleships/assets/114914739/47fc9ea7-c9cf-4bdb-a237-adf1d40686be">
 
-  A Welcome message, directing the user to read the rules pre playing. If you choose another option than yes/no on the keyboard number or letter it will not work.
+<img width="752" alt="Screenshot 2023-08-02 at 13 30 10" src="https://github.com/sammaxfleet/Battleships/assets/114914739/8154625a-5239-4f0d-844f-5f47f00f9040">
 
-<img width="1029" alt="Screenshot 2023-07-31 at 15 14 20" src="https://github.com/sammaxfleet/Battleships/assets/114914739/f30aec9c-1c35-4187-9469-84dcd3881660">
+A quick, swift intro! The Welcome message goes straight to the point, asking the user if they're ready for the Rules?..
 
-The Rules are then displayed to give the user a breakdown of how the game works before the button bashing begins. 
+If no...
 
+<img width="766" alt="Screenshot 2023-08-02 at 13 32 56" src="https://github.com/sammaxfleet/Battleships/assets/114914739/ecfaa24d-c070-4657-af60-32425bf3ab62">
+A polite message is left, 
+With the rules question still appearing to encourage the user to play. 
 
-<img width="426" alt="Screenshot 2023-07-31 at 15 16 57" src="https://github.com/sammaxfleet/Battleships/assets/114914739/ac5b5860-edfb-4926-be4f-7016a20f1ab0">
+If Yes...
 
-For example the Missile above is fired at 1,1. The 4 represents the shot being succesful. 
+<img width="1125" alt="Screenshot 2023-08-02 at 13 34 51" src="https://github.com/sammaxfleet/Battleships/assets/114914739/6fbc40ce-a019-49a5-8d27-a0258f4b429b">
 
-
-
-
+The rules are explained in bullet points, four bullet points, keeping the logic short and to the point 
+.
 
 
 
