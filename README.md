@@ -99,10 +99,13 @@ Comments from the code on how it was created.
 
 # Credits
 
-Youtube tutorial- Battleships
-https://www.youtube.com/watch?v=Gi0Fdyhk1_0&t=511s
-
-Stackoverflow was great resource.
+- Youtube tutorial- Battleships to understand logic. 
+- https://www.youtube.com/watch?v=Gi0Fdyhk1_0&t=511s
+- Stackoverflow was great resource.
+- https://www.w3schools.com/ 
+- https://www.geeksforgeeks.org/ understanding how to make battleships invisible 
+- Tutors at code Institute
+- Slack meet with the September intake.
 
 
 # Testing
