@@ -1,51 +1,74 @@
 import random
 import json
 import os
+
 number_of_tries = 0
-# User Interaction/Rules Section 1.
+# User Interaction/Rules
+
+
 def run_game():
     if os.path.exists("ship_positions.json"):
         os.remove("ship_positions.json")
     print("Hi welcome to Battleships Game 2023!")
     while True:
-        ans = input("The rules are needed to be reviewed before starting the game, are you ready to see them? (yes/no)")
-        if ans == 'yes':
-            print("Rules...\n","1.The Battleship Board has a 10 by 10 layout \n", 
-                  "2.To take your shot at the board type a number followed by a comma followed by another number, example... 1,1 \n", 
-                  "3.The battleships are invisible, the board will tell you if your shot has hit by using a 4... a missed shot will be represented by a * \n", 
-                  "4.You can play as many times as you wish.")
+        ans = input(
+            "1. Are you ready to review the rules? (yes/no)",
+        )
+        if ans == "yes":
+            print(
+                "Rules...\n",
+                "1. Choose the size of your Grid, the maximum is 8 x 8",
+                "2. Guess row & Column to shoot missile",
+                "3. The Battleships are invisible",
+                "4a. The board will tell you if your shot has hit",
+                "4b. Using a H for hit & a M for miss",
+                "5. The game loops after 10 tries",)
             break
-        elif ans == 'no':
+        elif ans == "no":
             print("Ok, come back when you're ready.")
             continue
         else:
-            print('You did not say yes/no. Please try again.')
-            continue
-#Create the grid and set the size of the grid + generate positions. 
+            print("You did not say yes/no. Please try again.")
+        continue
+
+
+# Create the grid and set the size of the grid + generate positions.
+
 
 def create_grid(size, ship_positions=None):
     if ship_positions is None:
         ship_positions = set()
-    return [[(' ' if (r, c) not in ship_positions else 'X') for c in range(size)] for r in range(size)]
+    return [
+        [(" " if (r, c) not in ship_positions else "X") for c in range(size)]
+        for r in range(size)
+    ]
+
 
 # print entire grid
+
+
 def print_grid(grid):
     print(" +" + "-+" * len(grid))
     for i, row in enumerate(grid):
         print(f"| {' '.join(cell if cell != 'X' else ' ' for cell in row)} |")
     print(" +" + "-+" * len(grid))
 
-# place a ship with vale 'X'
-def place_ship(grid, row, col): 
-    grid[row][col] = 'X'
+# place a ship with value 'X'
+
+
+def place_ship(grid, row, col):
+    grid[row][col] = "X"
+
 
 # place positions & store random positions to the file.
+
+
 def place_computer_ship(grid):
     NUM_COMPUTER_SHIPS = 3
 
-    # Load ship positions from JSON file or create an empty set if the file doesn't exist
+    # Load ship positions from JSON file
     try:
-        with open('ship_positions.json', 'r') as json_file:
+        with open("ship_positions.json", "r") as json_file:
             ship_positions = set(tuple(pos) for pos in json.load(json_file))
     except FileNotFoundError:
         ship_positions = set()
@@ -61,7 +84,7 @@ def place_computer_ship(grid):
                 break
 
     # Save ship positions to the JSON file (using 0-based coordinates)
-    with open('ship_positions.json', 'w') as json_file:
+    with open("ship_positions.json", "w") as json_file:
         json.dump(list(ship_positions), json_file)
 
 
@@ -85,15 +108,18 @@ def get_user_guess():
         print("Invalid input. Please enter numbers between 0 and 7.")
         return get_user_guess()
 
-# to check if the given value from the user is true in the jsonfile 
+
+# to check if the given value from the user is true in the jsonfile
+
+
 def is_hit(grid, row, col):
-  
-    with open('ship_positions.json', 'r') as json_file:
+    with open("ship_positions.json", "r") as json_file:
         ship_positions = set(tuple(pos) for pos in json.load(json_file))
 
     return (row, col) in ship_positions
 
-# play game to start the game and request from the user 
+# play game to start the game and request from the user
+
 
 def play_game(grid):
     print("Let's play Battleships!")
@@ -104,12 +130,15 @@ def play_game(grid):
 
         if is_hit(grid, user_guess_row, user_guess_col):
             print("Congratulations! You hit the computer's ship!")
-            grid[user_guess_row][user_guess_col] = 'H'
+            grid[user_guess_row][user_guess_col] = "H"
         else:
             print("You missed the computer's ship!")
-            grid[user_guess_row][user_guess_col] = 'M'
+            grid[user_guess_row][user_guess_col] = "M"
+
 
 # main function
+
+
 if __name__ == "__main__":
     # Allow the user to set the grid size
     run_game()
