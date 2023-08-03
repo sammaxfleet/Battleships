@@ -38,9 +38,17 @@ Portfolio Project 3 - Python Essentials.
 Purpose of the project & description of game created.
 =======
 - [BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.](#battleships-game-portfolio-project-3---python-essentials)
-- [Purpose of the project & description](#purpose-of-the-project---description)
-- [Game creation breakdown.](#game-creation-breakdown)
+- [Responsiveness -](#responsiveness--)
+- [Planning Phase -](#planning-phase--)
 - [Flow chart example -](#flow-chart-example--)
+- [User Sories](#user-sories)
+- [Purpose of the project & description.](#purpose-of-the-project---description)
+- [Features](#features)
+  * [Welcome Message](#welcome-message)
+- [Rules](#rules)
+- [Grid](#grid)
+- [Shots](#shots)
+- [Game creation breakdown.](#game-creation-breakdown)
 - [Credits](#credits)
 - [Testing](#testing)
 
