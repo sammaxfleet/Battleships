@@ -16,13 +16,14 @@ I've tried to focus on smoother testing and deployment.
 
 Portfolio Project 3 - Python Essentials.
 Purpose of the project & description of game created.
-=======
+
 - [BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.](#battleships-game-portfolio-project-3---python-essentials)
 - [Responsiveness -](#responsiveness--)
-- [Planning Phase -](#planning-phase--)
-- [Flow chart example -](#flow-chart-example--)
-- [User Sories](#user-sories)
-- [Purpose of the project & description.](#purpose-of-the-project---description)
+- [Creators Goal & description -](#creators-goal---description--)
+  * [Planning Phase -](#planning-phase--)
+- [Flow chart  -](#flow-chart---)
+- [User Experience]](#user-experience-)
+  * [User Sotries](#user-sotries)
 - [Features](#features)
   * [Welcome Message](#welcome-message)
 - [Rules](#rules)
@@ -32,13 +33,25 @@ Purpose of the project & description of game created.
 - [Credits](#credits)
 - [Testing](#testing)
 
-- 
-# Planning Phase -
 
- It took me a while to get to a logic that flowed well. My first initial ideas made the game a bit too eomplex, wanting to constantly add features.
- I watched a few tutorials to get ideas for the game flow. 
+# Creators Goal & description - 
+
+The purpose of this project is to build an interactive brain game for a user to play against the computer.
+The game is simple, and repeats in a loop of 10 tries then it restarts.
+The loop brings a competitive touch to the game. 
+The grid size is chosen by the user. The maximum it's set to is a grid of 8, if a harder game was to be functioned it could go to 25 for example. 
+The rules are explained at the beginning to give the user clear instruction, the user has to blow up the invisible battleships that are randmoised by the computer on a grid.
+The user does this by taking shots at the Row/Column. 
+There's 3 battleships placed Invisibly on the board, the user then has 10 tries to hit the battleships with their missile which is represented by a H for hit 
+& an M for Miss. 
+
+##  Planning Phase -
+
+ It took me a while to get to a logic that flowed well. My first initial ideas made the game a bit too complex, wanting to constantly add features.
+ I watched a few tutorials to get ideas for the game flow..
  The main aim for me was to get the User experience to be smooth, & the biggest challenge I had coding was the battleships and hiding them. 
  Having a clear game flow, made the game much easier to code. 
+ 
  
  
 # Flow chart  -
@@ -60,18 +73,7 @@ Purpose of the project & description of game created.
 7. Make the flow of the game feel user friendly .
 8. Loop the game X 10.
 
-   Creators Goal
-
-
-
-# Purpose of the project & description.
-
-The purpose of this project is to build an interactive brain game for a user to play against the computer.
-The game is simple, and repeats in a loop of 10 tries then it restarts.
-The grid size is chosen by the user. The maximum it's set to is a grid of 8, if a harder game was to be functioned it could go to 25 for example. 
-The rules are explained at the beginning to give the user clear instruction. 
-There's 3 battleships placed Invisibly on the board, the user then has 10 tries to hit the battleships with their missile which is represented by a H for hit 
-& an M for Miss. 
+   
 
 
 # Features
@@ -112,7 +114,7 @@ The games loops upto 10 tgoes o try and hit all 3 battleships, then resets.
 
 
 
-# Goding Game creation breakdown.
+# Game creation breakdown.
 
 
 Comments from the code on how it was created. 
