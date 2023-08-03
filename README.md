@@ -11,6 +11,10 @@ I've made the battleships invisible, and looped the game so it has a try of 10 s
 I've tried to focus on smoother testing and deployment. 
 
 
+# Flow chart example -
+ For Game Creation. 
+ ![Flowchart Template (1)](https://github.com/sammaxfleet/Battleships/assets/114914739/6770f8b3-9a2b-4235-97ca-2e586bd00edc)
+ 
 User Stories to achieve:
 
 User Sories 
@@ -107,10 +111,6 @@ Comments from the code on how it was created.
  - Loop game after 10 tries. 
  
 
-
-# Flow chart example -
- For Game Creation. 
- ![Flowchart Template (1)](https://github.com/sammaxfleet/Battleships/assets/114914739/6770f8b3-9a2b-4235-97ca-2e586bd00edc)
 
 
 
