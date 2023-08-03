@@ -10,6 +10,11 @@ Before the shots at the board were working but there was no battleships.
 I've made the battleships invisible, and looped the game so it has a try of 10 shots. 
 I've tried to focus on smoother testing and deployment. 
 
+#  Responsiveness -
+
+<img width="1125" alt="Screenshot 2023-08-03 at 11 39 50" src="https://github.com/sammaxfleet/Battleships/assets/114914739/084db136-4e5b-4887-b7e4-905aec906e31">
+
+# Planning Phase -
 
 # Flow chart example -
  For Game Creation. 
