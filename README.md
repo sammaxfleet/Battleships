@@ -109,8 +109,9 @@ Comments from the code on how it was created.
 
 
 # Flow chart example -
+ For Game Creation. 
+ ![Flowchart Template (1)](https://github.com/sammaxfleet/Battleships/assets/114914739/6770f8b3-9a2b-4235-97ca-2e586bd00edc)
 
-<img src = "images/screenshot1.png">
 
 
 # Credits
@@ -125,6 +126,7 @@ Comments from the code on how it was created.
 
 
 # Testing
+
 
 
 
