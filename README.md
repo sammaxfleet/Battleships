@@ -22,14 +22,13 @@ I've tried to focus on smoother testing and deployment.
  
 User Stories to achieve:
 
-User Sories 
-
-1. Make a board your own size with a Maximum of 8. 
-2. Fire shots at the board & decide how they register.
-3. Decide how the battleships are represented & randomise hits for each game. 
-4. Make Battleships invisble for game.
-5. Say if shot isn't on the board with a 'H' for hit or 'M' for miss.
-6. Explain the Rules to the User. 
+ # User Sories 
+1. Welcome message & explain the Rules to the User. 
+2. Make a board your own size with a Maximum of 8. 
+3. Fire shots at the board & decide how they register.
+4. Decide how the battleships are represented & randomise hits for each game. 
+5. Make Battleships invisble for game.
+6. Say if shot isn't on the board with a 'H' for hit or 'M' for miss.
 7. Make the flow of the game feel user friendly .
 8. Loop the game X 10.
    
