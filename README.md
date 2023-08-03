@@ -152,13 +152,10 @@ Comments from the code on how it was created.
 
 # Testing
 
-
-
-
 PEP 8
 
 https://extendsclass.com/python-tester.html
-
+g
 https://pep8ci.herokuapp.com/#
 
 <img src = "img/screenshot2.png">
