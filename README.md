@@ -74,7 +74,6 @@ There's 3 battleships placed Invisibly on the board, the user then has 10 tries 
 & an M for Miss. 
 
 
-
 # Features
 
 ## Welcome Message 
