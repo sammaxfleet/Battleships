@@ -14,26 +14,6 @@ I've tried to focus on smoother testing and deployment.
 
 <img width="1125" alt="Screenshot 2023-08-03 at 11 39 50" src="https://github.com/sammaxfleet/Battleships/assets/114914739/084db136-4e5b-4887-b7e4-905aec906e31">
 
-# Planning Phase -
-
-# Flow chart example -
- For Game Creation. 
- ![Flowchart Template (1)](https://github.com/sammaxfleet/Battleships/assets/114914739/6770f8b3-9a2b-4235-97ca-2e586bd00edc)
- 
-User Stories to achieve:
-
- # User Sories 
-1. Welcome message & explain the Rules to the User. 
-2. Make a board your own size with a Maximum of 8. 
-3. Fire shots at the board & decide how they register.
-4. Decide how the battleships are represented & randomise hits for each game. 
-5. Make Battleships invisble for game.
-6. Say if shot isn't on the board with a 'H' for hit or 'M' for miss.
-7. Make the flow of the game feel user friendly .
-8. Loop the game X 10.
-   
-
-
 Portfolio Project 3 - Python Essentials.
 Purpose of the project & description of game created.
 =======
@@ -52,9 +32,39 @@ Purpose of the project & description of game created.
 - [Credits](#credits)
 - [Testing](#testing)
 
+- 
+# Planning Phase -
+
+ It took me a while to get to a logic that flowed well. My first initial ideas made the game a bit too eomplex, wanting to constantly add features.
+ I watched a few tutorials to get ideas for the game flow. 
+ The main aim for me was to get the User experience to be smooth, & the biggest challenge I had coding was the battleships and hiding them. 
+ Having a clear game flow, made the game much easier to code. 
+ 
+ 
+# Flow chart  -
+
+ ![Flowchart Template (1)](https://github.com/sammaxfleet/Battleships/assets/114914739/6770f8b3-9a2b-4235-97ca-2e586bd00edc)
+ 
+
+
+ # User Experience]
+ 
+ ## User Sotries 
+ 
+1. Welcome message & explain the Rules to the User. 
+2. Make a board your own size with a Maximum of 8. 
+3. Fire shots at the board & decide how they register.
+4. Decide how the battleships are represented & randomise hits for each game. 
+5. Make Battleships invisble for game.
+6. Say if shot isn't on the board with a 'H' for hit or 'M' for miss.
+7. Make the flow of the game feel user friendly .
+8. Loop the game X 10.
+
+   Creators Goal
+
+
 
 # Purpose of the project & description.
->>>>>>> 87fb1c317d72b475cf61e685ef71dc0c42442d17
 
 The purpose of this project is to build an interactive brain game for a user to play against the computer.
 The game is simple, and repeats in a loop of 10 tries then it restarts.
@@ -103,18 +113,20 @@ The games loops upto 10 tgoes o try and hit all 3 battleships, then resets.
 
 
 
-# Game creation breakdown.
+# Goding Game creation breakdown.
 
 
 Comments from the code on how it was created. 
 
  - User Interaction/Rules Section 1.
 
- - Function for Grid Size Section 2.
+ - Create the grid and set the size of the grid + generate positions. 
 
- - Grid styling
+ - Print entire grid
 
- - Battleship Placement 
+ - Place battleship positions & store random positions to the file.
+  
+ - Save ship positions to the JSON file (using 0-based coordinates)
 
  - User input
 
