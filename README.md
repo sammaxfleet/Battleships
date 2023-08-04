@@ -18,7 +18,7 @@ GitHub Link - https://github.com/sammaxfleet/Battleships
 <img width="1108" alt="Screenshot 2023-08-04 at 10 15 05" src="https://github.com/sammaxfleet/Battleships/assets/114914739/2e7f39a9-cb01-4f8f-9954-3990277bc287">
 
 
-# Table Of Contents
+# Table Of Contents - 
 
 - [BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE - Python Essentials.](#battleships-game--project-3-code-institute---python-essentials)
   * [Things I've worked on since the last submission.](#things-i-ve-worked-on-since-the-last-submission)
@@ -63,9 +63,9 @@ Their missile which is represented by a H for hit & an M for Miss fire to try an
  ![Flowchart Template (1)](https://github.com/sammaxfleet/Battleships/assets/114914739/6770f8b3-9a2b-4235-97ca-2e586bd00edc)
  
 
- # User Experience
+ # User Experience -
  
- ## User Sotries 
+ ## User Sotries -
  
 1. Welcome message & explain the Rules to the User.
 2. Make a board your own size with a Maximum of 8.
@@ -79,9 +79,9 @@ Their missile which is represented by a H for hit & an M for Miss fire to try an
 
    
 
-# Features
+# Features -
 
-## Welcome Message 
+## Welcome Message -
 
 <img width="373" alt="Screenshot 2023-08-04 at 10 28 54" src="https://github.com/sammaxfleet/Battleships/assets/114914739/1630b738-b9e7-4a4a-a133-3a7217ffd8b2">
 
@@ -89,7 +89,8 @@ Their missile which is represented by a H for hit & an M for Miss fire to try an
 A quick, swift intro! The Welcome message goes straight to the point, asking the user if they're ready for the Rules?..
 
 If no...
-# Rules
+
+# Rules -
 
 <img width="374" alt="Screenshot 2023-08-04 at 10 30 32" src="https://github.com/sammaxfleet/Battleships/assets/114914739/af509c3c-8ea8-40c2-8d38-9b90d09b5bbd">
 
@@ -102,13 +103,13 @@ If Yes...
 
 The rules are explained in bullet points, four bullet points, keeping the logic short and to the point.
 
-# Grid 
+# Grid  -
 The Grid Size & Game Begins
 
 <img width="298" alt="Screenshot 2023-08-02 at 20 45 15" src="https://github.com/sammaxfleet/Battleships/assets/114914739/68f9aa12-1849-4431-ae7e-7534e508f7d6">
 
 
-# Shots 
+# Shots -
 As you shoot it either gets represented by an M or a H
 
 <img width="119" alt="Screenshot 2023-08-02 at 20 45 59" src="https://github.com/sammaxfleet/Battleships/assets/114914739/fb12ebc9-fe5d-43a0-a8ca-a5c029497416">
@@ -119,7 +120,7 @@ The games loops upto 10 tgoes o try and hit all 3 battleships, then resets.
 
 
 
-# Game creation breakdown.
+# Game creation breakdown -
 
 
 Comments from the code on how it was created. 
@@ -143,7 +144,7 @@ Comments from the code on how it was created.
 
 
 
-# Credits
+# Credits -
 
 - Youtube tutorial- Battleships to understand logic. 
 - https://www.youtube.com/watch?v=Gi0Fdyhk1_0&t=511s
@@ -154,7 +155,7 @@ Comments from the code on how it was created.
 - Slack meet with the September intake.
 
 
-# Testing
+# Testing -
 
 PEP 8
 Duriing the testing my main error was that my lines of code were too long so I asked the tutors from code institute to help with 
@@ -181,7 +182,7 @@ Error messages are shown if wrong input
 
 
 
-# Deployment 
+# Deployment -
 
 Heroku- The Game is fully functional and deployed by Heroku. 
 
