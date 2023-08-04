@@ -2,7 +2,7 @@
 
 Heroku link - 
 
-# Things I've worked on since the last submission.
+## Things I've worked on since the last submission.
 
 - I've kept the welcome message the same, but added the grid question for the user to be able to change the grid size.
 - The board wasn't working properly. 
