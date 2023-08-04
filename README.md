@@ -168,7 +168,10 @@ https://www.geeksforgeeks.org/break-a-long-line-into-multiple-lines-in-python/
 https://extendsclass.com/python-tester.html
 
 https://pep8ci.herokuapp.com/#
-Error messages are shown if wrong input.
+
+
+Error messages are shown if wrong input
+
 <img width="422" alt="Screenshot 2023-08-04 at 11 29 28" src="https://github.com/sammaxfleet/Battleships/assets/114914739/172b3bbe-38e5-4049-bd17-8cda7d34f734">
 
 <img width="479" alt="Screenshot 2023-08-04 at 11 30 27" src="https://github.com/sammaxfleet/Battleships/assets/114914739/5fe5a4c2-af18-4960-a129-66b99acda619">
