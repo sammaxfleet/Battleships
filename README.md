@@ -14,8 +14,8 @@ Heroku link - https://battleships2023.herokuapp.com/
 
 <img width="1108" alt="Screenshot 2023-08-04 at 10 15 05" src="https://github.com/sammaxfleet/Battleships/assets/114914739/2e7f39a9-cb01-4f8f-9954-3990277bc287">
 
-Portfolio Project 3 - Python Essentials.
-Purpose of the project & description of game created.
+
+# Table Of Contents
 
 - [BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.](#battleships-game-portfolio-project-3---python-essentials)
 - [Responsiveness -](#responsiveness--)
@@ -34,47 +34,45 @@ Purpose of the project & description of game created.
 - [Testing](#testing)
 
 
-# Creators Goal & description - 
+# Creators Goal & Description - 
 
 The purpose of this project is to build an interactive brain game for a user to play against the computer.
-The game is simple, and repeats in a loop of 10 tries then it restarts.
-The loop brings a competitive touch to the game. 
-The grid size is chosen by the user. The maximum it's set to is a grid of 8, if a harder game was to be functioned it could go to 25 for example. 
-The rules are explained at the beginning to give the user clear instruction, the user has to blow up the invisible battleships that are randmoised by the computer on a grid.
+The game is simple, and repeats in a loop of 10 tries then it restarts. The loop brings a competitive touch to the game, giving the user 10 tries to hit the battleships. 
+The grid size is chosen by the user, the maximum it's set to is a grid of 8, if a harder game was to be functioned it could go to 25 for example. 
+The rules are explained at the beginning to give the user clear instruction, the user has to blow up the invisible battleships that are randmoised by the computer on the grid.
 The user does this by taking shots at the Row/Column. 
-There's 3 battleships placed Invisibly on the board, the user then has 10 tries to hit the battleships with their missile which is represented by a H for hit 
-& an M for Miss. 
+Their missile which is represented by a H for hit & an M for Miss fire to try and hit the 3 invisible battleships. 
+
+
 
 ##  Planning Phase -
 
- It took me a while to get to a logic that flowed well. My first initial ideas made the game a bit too complex, wanting to constantly add features.
+ It took me a while to get to a logic that flowed the way I wanted.  My first initial ideas made the game a bit too complex, wanting to constantly add features.
  I watched a few tutorials to get ideas for the game flow..
  The main aim for me was to get the User experience to be smooth, & the biggest challenge I had coding was the battleships and hiding them. 
  Having a clear game flow, made the game much easier to code. 
- 
- 
+ My flow chart example below. 
  
 # Flow chart  -
 
  ![Flowchart Template (1)](https://github.com/sammaxfleet/Battleships/assets/114914739/6770f8b3-9a2b-4235-97ca-2e586bd00edc)
  
 
-
- # User Experience]
+ # User Experience
  
  ## User Sotries 
  
-1. Welcome message & explain the Rules to the User. 
-2. Make a board your own size with a Maximum of 8. 
-3. Fire shots at the board & decide how they register.
-4. Decide how the battleships are represented & randomise hits for each game. 
-5. Make Battleships invisble for game.
-6. Say if shot isn't on the board with a 'H' for hit or 'M' for miss.
-7. Make the flow of the game feel user friendly .
-8. Loop the game X 10.
+1. Welcome message & explain the Rules to the User.
+2. Make a board your own size with a Maximum of 8.
+3. Any wrong entries throughout the game have messages to identify wrong input. 
+4. Fire shots at the board & decide how they register.
+5. Decide how the battleships are represented & randomise hits for each game. 
+6. Make Battleships invisble for game.
+7. Say if shot isn't on the board with a 'H' for hit or 'M' for miss.
+8. Make the flow of the game feel user friendly .
+9. Loop the game X 10 with a 'Game Over' notification. 
 
    
-
 
 # Features
 
