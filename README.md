@@ -168,13 +168,13 @@ https://extendsclass.com/python-tester.html
 
 https://pep8ci.herokuapp.com/#
 
-<img src = "img/screenshot2.png">
 
 
 Deployment 
 
 Heroku- The Game is fully functional and deployed by Heroku. 
-<img width="740" alt="Screenshot 2023-08-02 at 21 01 54" src="https://github.com/sammaxfleet/Battleships/assets/114914739/fdb3fcd1-6ccf-49db-98cb-d9d8c3b347ba">
+
+
 
 
 
