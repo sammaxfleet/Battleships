@@ -17,12 +17,14 @@ Heroku link -
 
 # Table Of Contents
 
-- [BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.](#battleships-game-portfolio-project-3---python-essentials)
+- [BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE - Python Essentials.](#battleships-game--project-3-code-institute---python-essentials)
+- [Things I've worked on since the last submission.](#things-i-ve-worked-on-since-the-last-submission)
 - [Responsiveness -](#responsiveness--)
-- [Creators Goal & description -](#creators-goal---description--)
+- [Table Of Contents](#table-of-contents)
+- [Creators Goal & Description -](#creators-goal---description--)
   * [Planning Phase -](#planning-phase--)
 - [Flow chart  -](#flow-chart---)
-- [User Experience]](#user-experience-)
+- [User Experience](#user-experience)
   * [User Sotries](#user-sotries)
 - [Features](#features)
   * [Welcome Message](#welcome-message)
