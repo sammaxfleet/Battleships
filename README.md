@@ -1,6 +1,10 @@
  # BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE - Python Essentials.
 
+Heroku link 
+
 https://battleships2023.herokuapp.com/
+
+GitHub Link - https://github.com/sammaxfleet/Battleships
 
 ## Things I've worked on since the last submission.
 
@@ -178,11 +182,13 @@ Error messages are shown if wrong input
 
 
 
-Deployment 
+# Deployment 
 
 Heroku- The Game is fully functional and deployed by Heroku. 
 
 <img width="738" alt="Screenshot 2023-08-04 at 11 25 33" src="https://github.com/sammaxfleet/Battleships/assets/114914739/e4c785de-681c-49e4-a305-6e876c7f3a57">
+
+
 
 
 
