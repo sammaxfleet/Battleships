@@ -153,9 +153,18 @@ Comments from the code on how it was created.
 # Testing
 
 PEP 8
+Duriing the testing my main error was that my lines of code were too long so I asked the tutors from code institute to help with 
+breaking a line.
+
+<img width="544" alt="Screenshot 2023-08-04 at 10 01 23" src="https://github.com/sammaxfleet/Battleships/assets/114914739/c45341ac-aaa2-4b59-a067-3d008ceba22f">
+
+https://www.geeksforgeeks.org/break-a-long-line-into-multiple-lines-in-python/
+
+<img width="1226" alt="Screenshot 2023-08-04 at 09 58 07" src="https://github.com/sammaxfleet/Battleships/assets/114914739/07d711a3-02eb-4d2b-be4a-109213d81e4e">
+
 
 https://extendsclass.com/python-tester.html
-g
+
 https://pep8ci.herokuapp.com/#
 
 <img src = "img/screenshot2.png">
