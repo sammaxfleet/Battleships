@@ -1,6 +1,6 @@
  # BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE - Python Essentials.
 
-Heroku link - https://battleships2023.herokuapp.com/
+Heroku link - 
 
 # Things I've worked on since the last submission.
 
@@ -85,14 +85,15 @@ A quick, swift intro! The Welcome message goes straight to the point, asking the
 
 If no...
 # Rules
-<img width="766" alt="Screenshot 2023-08-02 at 13 32 56" src="https://github.com/sammaxfleet/Battleships/assets/114914739/ecfaa24d-c070-4657-af60-32425bf3ab62">
-A polite message is left, 
-With the rules question still appearing to encourage the user to play. 
+
+<img width="374" alt="Screenshot 2023-08-04 at 10 30 32" src="https://github.com/sammaxfleet/Battleships/assets/114914739/af509c3c-8ea8-40c2-8d38-9b90d09b5bbd">
+
+A polite message is left with the rules question still appearing to encourage the user to play. 
 
 If Yes...
 
+<img width="442" alt="Screenshot 2023-08-04 at 10 35 57" src="https://github.com/sammaxfleet/Battleships/assets/114914739/c1d5a1b5-1d7f-48ee-b80c-663ba8544af0">
 
-<img width="1125" alt="Screenshot 2023-08-02 at 13 34 51" src="https://github.com/sammaxfleet/Battleships/assets/114914739/6fbc40ce-a019-49a5-8d27-a0258f4b429b">
 
 The rules are explained in bullet points, four bullet points, keeping the logic short and to the point.
 
@@ -154,6 +155,7 @@ Comments from the code on how it was created.
 PEP 8
 Duriing the testing my main error was that my lines of code were too long so I asked the tutors from code institute to help with 
 breaking a line.
+This was shown with Python Linter & pycodestyle. 
 
 <img width="544" alt="Screenshot 2023-08-04 at 10 01 23" src="https://github.com/sammaxfleet/Battleships/assets/114914739/c45341ac-aaa2-4b59-a067-3d008ceba22f">
 
@@ -169,7 +171,7 @@ https://pep8ci.herokuapp.com/#
 <img src = "img/screenshot2.png">
 
 
-Deployment & Error Handling 
+Deployment 
 
 Heroku- The Game is fully functional and deployed by Heroku. 
 <img width="740" alt="Screenshot 2023-08-02 at 21 01 54" src="https://github.com/sammaxfleet/Battleships/assets/114914739/fdb3fcd1-6ccf-49db-98cb-d9d8c3b347ba">
