@@ -17,12 +17,12 @@ def run_game():
         if ans == "yes":
             print(
                 "Rules...\n",
-                "1. Choose the size of your Grid, the maximum is 8 x 8",
-                "2. Guess row & Column to shoot missile",
-                "3. The Battleships are invisible",
-                "4a. The board will tell you if your shot has hit",
-                "4b. Using a H for hit & a M for miss",
-                "5. The game loops after 10 tries",)
+                "1. Choose the size of your Grid, the maximum is 8 x 8\n",
+                "2. Guess row & Column to shoot missile \n",
+                "3. The Battleships are invisible \n",
+                "4a. The board will tell you if your shot has hit \n",
+                "4b. With a H for hit & a M for miss \n",
+                "5. The game loops after 10 tries \n",)
             break
         elif ans == "no":
             print("Ok, come back when you're ready.")
