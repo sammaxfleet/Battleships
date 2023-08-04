@@ -1,4 +1,4 @@
-# BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE - Python Essentials.
+ # BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE - Python Essentials.
 
 Heroku link - https://battleships2023.herokuapp.com/
 
@@ -78,7 +78,8 @@ Their missile which is represented by a H for hit & an M for Miss fire to try an
 
 ## Welcome Message 
 
-<img width="752" alt="Screenshot 2023-08-02 at 13 30 10" src="https://github.com/sammaxfleet/Battleships/assets/114914739/8154625a-5239-4f0d-844f-5f47f00f9040">
+<img width="373" alt="Screenshot 2023-08-04 at 10 28 54" src="https://github.com/sammaxfleet/Battleships/assets/114914739/1630b738-b9e7-4a4a-a133-3a7217ffd8b2">
+
 
 A quick, swift intro! The Welcome message goes straight to the point, asking the user if they're ready for the Rules?..
 
