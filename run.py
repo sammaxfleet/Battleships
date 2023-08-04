@@ -12,7 +12,7 @@ def run_game():
     print("Hi welcome to Battleships Game 2023!")
     while True:
         ans = input(
-            "1. Are you ready to review the rules? (yes/no)",
+            "Are you ready to review the rules? (yes/no)",
         )
         if ans == "yes":
             print(
