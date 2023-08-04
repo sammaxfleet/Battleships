@@ -1,18 +1,18 @@
-# BATTLESHIPS GAME Portfolio Project 3 - Python Essentials.
+# BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE - Python Essentials.
 
 Heroku link - https://battleships2023.herokuapp.com/
 
 # Things I've worked on since the last submission.
 
-I've kept the welcome message the same, but added the grid question for the user to be able to change the grid size.
-From here the game in my opinion is fully functional. 
-Before the shots at the board were working but there was no battleships.
-I've made the battleships invisible, and looped the game so it has a try of 10 shots. 
-I've tried to focus on smoother testing and deployment. 
+- I've kept the welcome message the same, but added the grid question for the user to be able to change the grid size.
+- The board wasn't working properly. 
+- The shots at the board were working but there was no battleships.
+- I've made the battleships invisible, and looped the game so it has a try of 10 shots. 
+- I've tried to focus on smoother testing and deployment. 
 
 #  Responsiveness -
 
-<img width="1125" alt="Screenshot 2023-08-03 at 11 39 50" src="https://github.com/sammaxfleet/Battleships/assets/114914739/084db136-4e5b-4887-b7e4-905aec906e31">
+<img width="1108" alt="Screenshot 2023-08-04 at 10 15 05" src="https://github.com/sammaxfleet/Battleships/assets/114914739/2e7f39a9-cb01-4f8f-9954-3990277bc287">
 
 Portfolio Project 3 - Python Essentials.
 Purpose of the project & description of game created.
