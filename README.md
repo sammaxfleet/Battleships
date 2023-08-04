@@ -1,8 +1,6 @@
  # BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE - Python Essentials.
 
-Heroku link 
-
-https://battleships2023.herokuapp.com/
+Heroku link - https://battleships2023.herokuapp.com/
 
 GitHub Link - https://github.com/sammaxfleet/Battleships
 
@@ -22,7 +20,7 @@ GitHub Link - https://github.com/sammaxfleet/Battleships
 # Table Of Contents
 
 - [BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE - Python Essentials.](#battleships-game--project-3-code-institute---python-essentials)
-- [Things I've worked on since the last submission.](#things-i-ve-worked-on-since-the-last-submission)
+  * [Things I've worked on since the last submission.](#things-i-ve-worked-on-since-the-last-submission)
 - [Responsiveness -](#responsiveness--)
 - [Table Of Contents](#table-of-contents)
 - [Creators Goal & Description -](#creators-goal---description--)
@@ -38,7 +36,7 @@ GitHub Link - https://github.com/sammaxfleet/Battleships
 - [Game creation breakdown.](#game-creation-breakdown)
 - [Credits](#credits)
 - [Testing](#testing)
-
+- [Deployment](#deployment)
 
 # Creators Goal & Description - 
 
