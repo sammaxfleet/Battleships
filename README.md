@@ -190,6 +190,36 @@ Heroku- The Game is fully functional and deployed by Heroku.
 
 
 
+Use the following steps to deploy the poject to Heroku:
+
+1. Use the "pip freeze -> requiremnts.txt" command in the gitPod terminal; to save any libraries that need to be installed to the project files in Heroku.
+2. Login or create a Heroku account.
+3. Click the "New" button in the upper right corner and select "Create New App".
+4. Choose an app name and your region and click "Create App". Note: the app name must be unique.
+6. G5. o to the "Settings" tab, add the python build pack and then the node.js build pack. This is to ensure the project functions correctly with the Code Institute pre-installed template.
+7. Create a "Config VAR" with the 'CREDS' key and the enter the value of the creds.json file.
+8. Create a second "Config VAR" with the key of 'PORT' and value of '8000'
+9. Go to the "Deploy" tab and pick GitHub as a deployment method.
+10. Search for a repository to connect to.
+11. Click enable automatic deploys and then deploy branch.
+12. Wait for the app to build and then click on the "View" link.
+
+
+You can fork the repository by following these steps:
+
+Go to the GitHub repository.
+Click on the Fork button in the upper right-hand corner.
+You can clone the repository by following these steps:
+
+Go to the GitHub repository.
+Locate the Code button above the list of files and click it.
+Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
+Open Git Bash.
+Change the current working directory to the one where you want the cloned directory.
+Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY).
+Press Enter to create your local clone.
+
+
 
 
 
