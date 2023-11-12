@@ -220,6 +220,22 @@ Type git clone and paste the URL from the clipboard ($ git clone https://github.
 Press Enter to create your local clone.
 
 
+Testing User Stories: 
+
+1. To create a Welcome Message
+2. To Explain the Rules
+3. to allow the user to choose the board size
+4. To Create a Game Board
+5. To create Shots
+6. To create a game loop which changes depending on the amount of shots with the size of the board. 
+7. To have a shot representation
+8. To have a game over 
+9. To not have efficient error handling throughout the game.
+
+
+
+    
+
 
 
 
