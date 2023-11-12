@@ -227,10 +227,13 @@ Testing User Stories:
 3. to allow the user to choose the board size
 4. To Create a Game Board
 5. To create Shots
-6. To create a game loop which changes depending on the amount of shots with the size of the board. 
-7. To have a shot representation
-8. To have a game over 
-9. To not have efficient error handling throughout the game.
+6. Change the board size with the amount of shots & up the difficulty
+7. To have a shot representation for hit and miss. 
+8. To have a game over after a certain amount of tries 
+9. To have efficient error handling throughout the game.
+10. To have a limit on the board size
+11. To have an error message if the hits are insuffcient
+12. To have clarity and a fluent rythm to the game
 
 
 
