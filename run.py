@@ -13,7 +13,7 @@ def run_game():
     while True:
         ans = input(
             "Are you ready to review the rules? (yes/no)",
-        )
+        ).lower()
         if ans == "yes":
             print(
                 "Rules...\n",
@@ -92,13 +92,17 @@ def place_computer_ship(grid):
 def get_user_guess():
     global number_of_tries
     try:
-        if number_of_tries == 10:
+        if number_of_tries == GRID_SIZE:
             print("GameOver")
             number_of_tries = 0
             run_game()
         guess_row = int(input(f"Guess Row (0-{GRID_SIZE-1}): "))
         guess_col = int(input(f"Guess Col (0-{GRID_SIZE-1}): "))
         number_of_tries += 1
+        if guess_row == 1 and guess_column == 1:
+           print("Please Guess between 2 & 10 for the gridsize")
+           return get_user_guess()
+
         if 0 <= guess_row < GRID_SIZE and 0 <= guess_col < GRID_SIZE:
             return guess_row, guess_col
         else:
@@ -136,13 +140,19 @@ def play_game(grid):
             grid[user_guess_row][user_guess_col] = "M"
 
 
+# New function
+
+
 # main function
 
 
 if __name__ == "__main__":
     # Allow the user to set the grid size
     run_game()
-    GRID_SIZE = int(input("Enter the grid size (e.g., 8): "))
+    try:
+        GRID_SIZE = int(input("Enter the grid size (e.g., 8): "))
+    except:
+        print('An error has occured terminating game')
 
     # Create the game grid
     grid = create_grid(GRID_SIZE)
