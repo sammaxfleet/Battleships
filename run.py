@@ -17,12 +17,12 @@ def run_game():
         if ans == "yes":
             print(
                 "Rules...\n",
-                "1. Choose the size of your Grid, the maximum is 8 x 8\n",
+                "1. Choose the size of your Grid \n",
+                "2. The maximum is 10 x 10 and the minimum is 2 x 2 \n",
                 "2. Guess row & Column to shoot missile \n",
                 "3. The Battleships are invisible \n",
                 "4a. The board will tell you if your shot has hit \n",
-                "4b. With a H for hit & a M for miss \n",
-                "5. The game loops after 10 tries \n",)
+                "4b. With a H for hit & a M for miss \n",)
             break
         elif ans == "no":
             print("Ok, come back when you're ready.")
@@ -96,20 +96,19 @@ def get_user_guess():
             print("GameOver")
             number_of_tries = 0
             run_game()
-        guess_row = int(input(f"Guess Row (0-{GRID_SIZE-1}): "))
-        guess_col = int(input(f"Guess Col (0-{GRID_SIZE-1}): "))
+        guess_row = int(input(f"Guess Row (1-{GRID_SIZE}): "))
+        guess_col = int(input(f"Guess Col (1-{GRID_SIZE}): "))
         number_of_tries += 1
-        if guess_row == 1 and guess_column == 1:
-           print("Please Guess between 2 & 10 for the gridsize")
-           return get_user_guess()
+        if guess_row <= 1 or guess_col <= 1 or guess_row > GRID_SIZE or guess_col > GRID_SIZE:
+           print(f"Please Guess between 2 & {GRID_SIZE} for the gridsize")
 
-        if 0 <= guess_row < GRID_SIZE and 0 <= guess_col < GRID_SIZE:
-            return guess_row, guess_col
+        if 0 <= guess_row-1 < GRID_SIZE and 0 <= guess_col-1 < GRID_SIZE:
+            return guess_row-1, guess_col-1
         else:
             print("Oops, that's not even in the ocean! Try again.")
             return get_user_guess()
     except ValueError:
-        print("Invalid input. Please enter numbers between 0 and 7.")
+        print("Invalid input. Please enter numbers valid for gridsize.")
         return get_user_guess()
 
 
