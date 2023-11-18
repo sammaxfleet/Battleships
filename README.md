@@ -226,7 +226,7 @@ Testing User Stories:
 2. To Explain the Rules
 3. to allow the user to choose the board size
 4. To Create a Game Board
-5. To create Shots
+5. To create the battleships.
 6. Change the board size with the amount of shots & up the difficulty
 7. To have a shot representation for hit and miss. 
 8. To have a game over after a certain amount of tries 
