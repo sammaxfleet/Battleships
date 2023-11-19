@@ -297,7 +297,7 @@ The Game is fully functional and deployed by Heroku.
 ## Local Deployment 
 
 
-# Credits -
+# Credits & Acknowledgment -
 
 - Youtube tutorial- Battleships to understand logic. 
 - https://www.youtube.com/watch?v=Gi0Fdyhk1_0&t=511s
