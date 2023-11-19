@@ -11,7 +11,7 @@ GRID_SIZE = 0
 def run_game():
     if os.path.exists("ship_positions.json"):
         os.remove("ship_positions.json")
-    print("Hi welcome to Battleships Game 2023!")
+    print("Hi, Welcome To Battleships Game 2023!!")
     while True:
         ans = input(
             "Are you ready to review the rules? (yes/no)",
@@ -33,9 +33,9 @@ def run_game():
                 GRID_SIZE = input("Enter a gridsize between 3 & 10: ")
                 GRID_SIZE = int(GRID_SIZE)
             except ValueError:
-                   print("Value error please try again")
-                   run_game()
-                   
+                    print("Value error please try again")
+                    run_game()
+
             if GRID_SIZE < 3 or GRID_SIZE > 10:
                 print("You did not enter a correct gridsize please try again!")
                 run_game()
