@@ -5,6 +5,8 @@ import os
 number_of_tries = 0
 # User Interaction/Rules
 
+GRID_SIZE = 0
+
 
 def run_game():
     if os.path.exists("ship_positions.json"):
@@ -23,6 +25,15 @@ def run_game():
                 "3. The Battleships are invisible \n",
                 "4a. The board will tell you if your shot has hit \n",
                 "4b. With a H for hit & a M for miss \n",)
+            try:
+                global GRID_SIZE
+                GRID_SIZE = int(input("Enter a gridsize between 3 & 10: "))
+                if GRID_SIZE < 3:
+                    print ("You did not enter a gridsize between 3 & 10 please try again!")
+                    run_game()
+            except:
+                print('An error has occured terminating game')
+
             break
         elif ans == "no":
             print("Ok, come back when you're ready.")
@@ -96,11 +107,16 @@ def get_user_guess():
             print("GameOver")
             number_of_tries = 0
             run_game()
+            grid = create_grid(GRID_SIZE)
+            place_computer_ship(grid)
+            play_game(grid)
+
         guess_row = int(input(f"Guess Row (1-{GRID_SIZE}): "))
         guess_col = int(input(f"Guess Col (1-{GRID_SIZE}): "))
         number_of_tries += 1
-        if guess_row <= 1 or guess_col <= 1 or guess_row > GRID_SIZE or guess_col > GRID_SIZE:
-           print(f"Please Guess between 2 & {GRID_SIZE} for the gridsize")
+        if guess_row < 1 or guess_col < 1 or guess_row > 10 or guess_col > 10:
+            print(f"Please Shoot between 1 & 10 on the board")
+            return get_user_guess()
 
         if 0 <= guess_row-1 < GRID_SIZE and 0 <= guess_col-1 < GRID_SIZE:
             return guess_row-1, guess_col-1
@@ -139,20 +155,12 @@ def play_game(grid):
             grid[user_guess_row][user_guess_col] = "M"
 
 
-# New function
-
-
 # main function
 
 
 if __name__ == "__main__":
     # Allow the user to set the grid size
     run_game()
-    try:
-        GRID_SIZE = int(input("Enter the grid size (e.g., 8): "))
-    except:
-        print('An error has occured terminating game')
-
     # Create the game grid
     grid = create_grid(GRID_SIZE)
 

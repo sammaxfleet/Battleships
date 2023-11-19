@@ -220,20 +220,64 @@ Type git clone and paste the URL from the clipboard ($ git clone https://github.
 Press Enter to create your local clone.
 
 
-Testing User Stories: 
+Testing Issues & User Stories: 
 
+
+Issue
 1. To create a Welcome Message
+
+   User Story:
+
+   A message the tells the User the game is starting, that is friendly and inviting for the user to start the game.
+
+   
 2. To Explain the Rules
-3. to allow the user to choose the board size
-4. To Create a Game Board
-5. To create Shots
-6. Change the board size with the amount of shots & up the difficulty
-7. To have a shot representation for hit and miss. 
-8. To have a game over after a certain amount of tries 
-9. To have efficient error handling throughout the game.
-10. To have a limit on the board size
-11. To have an error message if the hits are insuffcient
-12. To have clarity and a fluent rythm to the game
+
+   User Story:
+   
+   To Explain the rules before the game starts, have a simplified way of explaining the rules. Maybe bullet points would be good and a YES/NO to continue with a loop!
+   Make the points short and snappy so the user can understand. 
+
+   
+3. To allow the user to choose the Gridd size depending on the difficult they wish to play
+
+   User Story:
+
+   Difficulty level being able to be chosen with the board size being adaptable between 2 & 10!
+   A grid of 1 is not possible to play this game so 2-10 is ideal.
+
+4. Create the Game Board
+
+   User Story:
+
+   Decide how the game board is going to look maybe it being represented by "- and a "#" or '+' on the corners is great.
+   Something visual  and bold so the users can see end of the grid clearly to know where to shoot.
+
+5. Create the battleships
+   
+   User Story: For the battleships to be invisible and change at random every time we rungame function. Maybe created 2/3 battleships. 
+
+6. Decide how Shots are Represented
+
+   User Story: Create shots decide how they're represented. maybe a 'H' for hit or 'M' for miss.
+
+  7. 
+
+7.  To have a game over after a certain amount of tries
+
+   User story: For the game over to happen after the tries.
+
+   
+8. To have an error message if the hits are insuffcient
+
+ User Stories
+
+1. If any characters are entered that aren't corrected to be redirected by the Game.
+2. Any shots not on the board to have a message "Sorry that's not even in the ocean"
+3. If not ready to play the game to have a "come back later message"
+4.To make sure the board size has a minimum of 2 and maximum 10 which changes with the amount of shots.
+5. To make sure the flow of the game is professional and slick for the user, especially the rule explanation and grid size choice.
+6. To have clarity and a fluent rythm to the game
 
 
 
