@@ -1,6 +1,7 @@
 import random
 import json
 import os
+import sys
 
 number_of_tries = 0
 # User Interaction/Rules
@@ -42,7 +43,7 @@ def run_game():
             break
         elif ans == "no":
             print("Ok, come back when you're ready.")
-            continue
+            sys.exit()
         else:
             print("You did not say yes/no. Please try again.")
         continue
@@ -148,6 +149,7 @@ def is_hit(grid, row, col):
 def play_game(grid):
     print("Let's play Battleships!")
     print("Try to sink the computer's ships.")
+    global number_of_tries
     while True:
         print_grid(grid)
         user_guess_row, user_guess_col = get_user_guess()
@@ -155,10 +157,16 @@ def play_game(grid):
         if is_hit(grid, user_guess_row, user_guess_col):
             print("Congratulations! You hit the computer's ship!")
             grid[user_guess_row][user_guess_col] = "H"
+            print_grid(grid)
+            number_of_tries = 0
+            run_game()
+            grid = create_grid(GRID_SIZE)
+            place_computer_ship(grid)
+            play_game(grid)
         else:
             print("You missed the computer's ship!")
             grid[user_guess_row][user_guess_col] = "M"
-
+        print_grid(grid)
 
 # main function
 
