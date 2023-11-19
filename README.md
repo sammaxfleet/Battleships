@@ -1,7 +1,7 @@
- # BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE 
-   Python Essentials.
+ # BATTLESHIPS GAME | PROJECT 3 CODE INSTITUTE PYTHON ESSENTIALS
 
 
+# Links for Project
 
 Heroku link - https://battleships2023.herokuapp.com/
 
