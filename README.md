@@ -98,7 +98,9 @@ There are 3 invisible battlehsips that randomise.
  
 [BATTLESHIPS FLOW CHART 2.pdf](https://github.com/sammaxfleet/Battleships/files/13403974/BATTLESHIPS.FLOW.CHART.2.pdf)
 
-   
+
+<img width="809" alt="Screenshot 2023-11-19 at 17 25 03" src="https://github.com/sammaxfleet/Battleships/assets/114914739/9709e697-60de-49ac-ae69-af722395ac89">
+
 
 # Game Layout
 
