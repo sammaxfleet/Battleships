@@ -127,6 +127,7 @@ def get_user_guess():
         if 0 <= guess_row-1 < GRID_SIZE and 0 <= guess_col-1 < GRID_SIZE:
             return guess_row-1, guess_col-1
         else:
+            number_of_tries -= 1
             print("Oops, that's not even in the ocean! Try again.")
             return get_user_guess()
     except ValueError:
@@ -151,7 +152,6 @@ def play_game(grid):
     print("Try to sink the computer's ships.")
     global number_of_tries
     while True:
-        print_grid(grid)
         user_guess_row, user_guess_col = get_user_guess()
 
         if is_hit(grid, user_guess_row, user_guess_col):
