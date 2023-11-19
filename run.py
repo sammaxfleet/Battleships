@@ -19,12 +19,15 @@ def run_game():
         if ans == "yes":
             print(
                 "Rules...\n",
-                "1. Choose the size of your Grid \n",
-                "2. The maximum is 10 x 10 and the minimum is 3 x 3 \n",
-                "2. Guess row & Column to shoot missile \n",
-                "3. The Battleships are invisible \n",
-                "4a. The board will tell you if your shot has hit! \n",
-                "4b. With a H for hit & a M for miss! \n",)
+                "1. Firstly the Battleships are invisible!! \n",
+                "2. The board will tell you if your shot has hit! \n",
+                "3. a H is for hit & an M for miss! \n",
+                "4. To start choose the size of your Grid choose between 3 & 10 \n",
+                "5. The game gets harder the bigger the grid \n",
+                "6. You get as many tries as the size of your grid chosen \n"
+                "7. Guess row & Column to shoot missile between 1 & 10 \n",
+                "8. After your tries are complete it will be GameOver \n",
+            )
             global GRID_SIZE
             GRID_SIZE = input("Enter a gridsize between 3 & 10: ")
             GRID_SIZE = int(GRID_SIZE)
