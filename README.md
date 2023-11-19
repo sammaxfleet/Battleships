@@ -169,6 +169,7 @@ The amount of tries matches to the gridsize as explained in the rules. After the
 
 
 Issue
+
 1. To create a Welcome Message
 
    User Story:
@@ -188,8 +189,8 @@ Issue
 
    User Story:
 
-   Difficulty level being able to be chosen with the board size being adaptable between 2 & 10!
-   A grid of 1 is not possible to play this game so 2-10 is ideal.
+   Difficulty level being able to be chosen with the board size being adaptable between 3 & 10!
+   A grid of 1 is not possible to play this game so 3-10 is ideal.
 
 4. Create the Game Board
 
@@ -200,29 +201,33 @@ Issue
 
 5. Create the battleships
    
-   User Story: For the battleships to be invisible and change at random every time we rungame function. Maybe created 2/3 battleships. 
+   User Story:
+    1. For the battleships to be visible firslty and change at random every time we rungame function. Maybe create 2/3 battleships.
+    2. Then Make Battleships invisible
+   
 
-6. Decide how Shots are Represented
+7. Decide how Shots are Represented
 
    User Story: Create shots decide how they're represented. maybe a 'H' for hit or 'M' for miss.
 
-  7. 
+     
 
-7.  To have a game over after a certain amount of tries
+8.  To have a game over after a certain amount of tries
 
    User story: For the game over to happen after the tries.
 
    
-8. To have an error message if the hits are insuffcient
+8. To have more sufficient error handling and messages 
 
- User Stories
+ User Stories for Error handling
 
-1. If any characters are entered that aren't corrected to be redirected by the Game.
-2. Any shots not on the board to have a message "Sorry that's not even in the ocean"
-3. If not ready to play the game to have a "come back later message"
-4.To make sure the board size has a minimum of 2 and maximum 10 which changes with the amount of shots.
-5. To make sure the flow of the game is professional and slick for the user, especially the rule explanation and grid size choice.
-6. To have clarity and a fluent rythm to the game
+1. If not ready to play the game to have a "come back later message"
+2. If any characters are entered that aren't corrected to be redirected by the Game in the Rules/ User Interaction
+3. When choosing grid size any invalid inputs it doesn't accept and asks for a proper input. 
+4. Any shots not on the board to have a message "Sorry that's not even in the ocean" & that they don't count as a try. 
+5. A functional Gameover Loop. 
+6. To make sure the flow of the game is professional and slick for the user, especially the rule explanation and grid size choice.
+7. To have clarity and a fluent rythm to the game Overall. 
 
 
 
@@ -246,7 +251,9 @@ https://extendsclass.com/python-tester.html
 https://pep8ci.herokuapp.com/#
 
 
-# Error Handling
+# Error Handling 
+
+
 
 
 # Deployment -
