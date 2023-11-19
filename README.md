@@ -226,11 +226,12 @@ Issue
 
 
 
-    # Testing -
+# Testing ¶ Validation -
 
 PEP 8
 Duriing the testing my main error was that my lines of code were too long so I asked the tutors from code institute to help with 
 breaking a line.
+
 This was shown with Python Linter & pycodestyle. 
 
 <img width="544" alt="Screenshot 2023-08-04 at 10 01 23" src="https://github.com/sammaxfleet/Battleships/assets/114914739/c45341ac-aaa2-4b59-a067-3d008ceba22f">
@@ -245,11 +246,7 @@ https://extendsclass.com/python-tester.html
 https://pep8ci.herokuapp.com/#
 
 
-Error messages are shown if wrong input
-
-<img width="422" alt="Screenshot 2023-08-04 at 11 29 28" src="https://github.com/sammaxfleet/Battleships/assets/114914739/172b3bbe-38e5-4049-bd17-8cda7d34f734">
-
-<img width="479" alt="Screenshot 2023-08-04 at 11 30 27" src="https://github.com/sammaxfleet/Battleships/assets/114914739/5fe5a4c2-af18-4960-a129-66b99acda619">
+# Error Handling
 
 
 # Deployment -
