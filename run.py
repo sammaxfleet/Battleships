@@ -20,20 +20,17 @@ def run_game():
             print(
                 "Rules...\n",
                 "1. Choose the size of your Grid \n",
-                "2. The maximum is 10 x 10 and the minimum is 2 x 2 \n",
+                "2. The maximum is 10 x 10 and the minimum is 3 x 3 \n",
                 "2. Guess row & Column to shoot missile \n",
                 "3. The Battleships are invisible \n",
-                "4a. The board will tell you if your shot has hit \n",
-                "4b. With a H for hit & a M for miss \n",)
-            try:
-                global GRID_SIZE
-                GRID_SIZE = int(input("Enter a gridsize between 3 & 10: "))
-                if GRID_SIZE < 3:
-                    print ("You did not enter a gridsize between 3 & 10 please try again!")
-                    run_game()
-            except:
-                print('An error has occured terminating game')
-
+                "4a. The board will tell you if your shot has hit! \n",
+                "4b. With a H for hit & a M for miss! \n",)
+            global GRID_SIZE
+            GRID_SIZE = input("Enter a gridsize between 3 & 10: ")
+            GRID_SIZE = int(GRID_SIZE)
+            if GRID_SIZE < 3 or GRID_SIZE > 10:
+                print("You did not enter a correct gridsize please try again!")
+                run_game()
             break
         elif ans == "no":
             print("Ok, come back when you're ready.")
