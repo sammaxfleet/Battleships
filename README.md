@@ -1,18 +1,31 @@
  # BATTLESHIPS GAME, PROJECT 3 CODE INSTITUTE 
    Python Essentials.
 
+
+
 Heroku link - https://battleships2023.herokuapp.com/
 
 GitHub Link - https://github.com/sammaxfleet/Battleships
 
 ## Things I've worked on since the last submission.
 
+Submission 2
 - I've kept the welcome message the same, but added the grid question for the user to be able to change the grid size.
-- The board wasn't working properly. 
+- The board wasn't working properly.
 - The shots at the board were working but there was no battleships.
 - I've made the battleships invisible, and looped the game so it has a try of 10 shots. 
 - I've tried to focus on smoother testing and deployment. 
 
+
+Submission 3
+
+- Error handling has been a big focus, getting  a more efficient running game for the User.
+- Changing the grid size, which gives changes the amount of shots to the grid size, it enhances the difficulty.
+- Deployment in the Readme
+- More thorough testing with User Stories being added.
+- Testing in the Readme
+- Better Commits 
+- 
 #  Responsiveness -
 
 <img width="1108" alt="Screenshot 2023-08-04 at 10 15 05" src="https://github.com/sammaxfleet/Battleships/assets/114914739/2e7f39a9-cb01-4f8f-9954-3990277bc287">
@@ -86,9 +99,8 @@ Their missile which is represented by a H for hit & an M for Miss fire to try an
 <img width="373" alt="Screenshot 2023-08-04 at 10 28 54" src="https://github.com/sammaxfleet/Battleships/assets/114914739/1630b738-b9e7-4a4a-a133-3a7217ffd8b2">
 
 
-A quick, swift intro! The Welcome message goes straight to the point, asking the user if they're ready for the Rules?..
+A quick, swift introduction to the game! The Welcome message gets straight to the point, asking the user if they're ready for the Rules?..
 
-If no...
 
 # Rules -
 
@@ -101,20 +113,23 @@ If Yes...
 <img width="442" alt="Screenshot 2023-08-04 at 10 35 57" src="https://github.com/sammaxfleet/Battleships/assets/114914739/c1d5a1b5-1d7f-48ee-b80c-663ba8544af0">
 
 
-The rules are explained in bullet points, four bullet points, keeping the logic short and to the point.
+The rules are explained using a numbered list. This gives a bit of clarity to the User before being thrown straight to the Game Board. 
 
 # Grid  -
-The Grid Size & Game Begins
+
+Choosing Grid Size, the User can choose any Grid size between 3 & 10 depending on what Grid size depends on the difficulty level. 
 
 <img width="298" alt="Screenshot 2023-08-02 at 20 45 15" src="https://github.com/sammaxfleet/Battleships/assets/114914739/68f9aa12-1849-4431-ae7e-7534e508f7d6">
 
 
 # Shots -
+
 As you shoot it either gets represented by an M or a H
 
 <img width="119" alt="Screenshot 2023-08-02 at 20 45 59" src="https://github.com/sammaxfleet/Battleships/assets/114914739/fb12ebc9-fe5d-43a0-a8ca-a5c029497416">
 
-The games loops upto 10 tgoes o try and hit all 3 battleships, then resets. 
+
+ 
 
 <img width="768" alt="Screenshot 2023-08-02 at 20 47 42" src="https://github.com/sammaxfleet/Battleships/assets/114914739/8b47f69a-e7ef-4e7d-a170-ca6a314d46c7">
 
