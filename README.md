@@ -96,42 +96,51 @@ Their missile which is represented by a H for hit & an M for Miss fire to try an
 
 ## Welcome Message -
 
-<img width="373" alt="Screenshot 2023-08-04 at 10 28 54" src="https://github.com/sammaxfleet/Battleships/assets/114914739/1630b738-b9e7-4a4a-a133-3a7217ffd8b2">
+<img width="457" alt="Screenshot 2023-11-19 at 16 08 34" src="https://github.com/sammaxfleet/Battleships/assets/114914739/314e84ba-7130-4b65-825e-df2000f16bbf">
 
 
 A quick, swift introduction to the game! The Welcome message gets straight to the point, asking the user if they're ready for the Rules?..
 
+## Answer NO - 
 
-# Rules -
-
-<img width="374" alt="Screenshot 2023-08-04 at 10 30 32" src="https://github.com/sammaxfleet/Battleships/assets/114914739/af509c3c-8ea8-40c2-8d38-9b90d09b5bbd">
+<img width="467" alt="Screenshot 2023-11-19 at 16 09 13" src="https://github.com/sammaxfleet/Battleships/assets/114914739/3fa7bdfa-1cc8-436f-8ec2-e7abaad89cd0">
 
 A polite message is left with the rules question still appearing to encourage the user to play. 
 
-If Yes...
 
-<img width="442" alt="Screenshot 2023-08-04 at 10 35 57" src="https://github.com/sammaxfleet/Battleships/assets/114914739/c1d5a1b5-1d7f-48ee-b80c-663ba8544af0">
+# Answer Yes & Rules 
+
+<img width="656" alt="Screenshot 2023-11-19 at 16 10 45" src="https://github.com/sammaxfleet/Battleships/assets/114914739/d5827dfe-5106-4a8b-bd72-71863407fcbc">
 
 
 The rules are explained using a numbered list. This gives a bit of clarity to the User before being thrown straight to the Game Board. 
 
-# Grid  -
-
-Choosing Grid Size, the User can choose any Grid size between 3 & 10 depending on what Grid size depends on the difficulty level. 
-
-<img width="298" alt="Screenshot 2023-08-02 at 20 45 15" src="https://github.com/sammaxfleet/Battleships/assets/114914739/68f9aa12-1849-4431-ae7e-7534e508f7d6">
-
-
-# Shots -
-
-As you shoot it either gets represented by an M or a H
-
-<img width="119" alt="Screenshot 2023-08-02 at 20 45 59" src="https://github.com/sammaxfleet/Battleships/assets/114914739/fb12ebc9-fe5d-43a0-a8ca-a5c029497416">
+Rules...
+ 1. Firstly the Battleships are invisible!! 
+ 2. The board will tell you if your shot has hit! 
+ 3. a H is for hit & an M for miss! 
+ 4. To start choose the size of your Grid choose between 3 & 10 
+ 5. The game gets harder the bigger the grid 
+ 6. You get as many tries as the size of your grid chosen 
+ 7. Guess row & Column to shoot missile between 1 & 10 
+ 8. After your tries are complete it will be GameOver 
 
 
- 
 
-<img width="768" alt="Screenshot 2023-08-02 at 20 47 42" src="https://github.com/sammaxfleet/Battleships/assets/114914739/8b47f69a-e7ef-4e7d-a170-ca6a314d46c7">
+# Choosing Grid Size
+
+<img width="609" alt="Screenshot 2023-11-19 at 16 11 52" src="https://github.com/sammaxfleet/Battleships/assets/114914739/cf4c933b-f522-44b2-b771-4834723d5c69">
+
+## Guess row & guess Column SHOTS
+
+<img width="448" alt="Screenshot 2023-11-19 at 16 12 30" src="https://github.com/sammaxfleet/Battleships/assets/114914739/c6b7bcfa-78c5-43fa-a7d1-f20445607ca0">
+
+
+## Amount of Tries & Gameover
+
+ <img width="742" alt="Screenshot 2023-11-19 at 16 13 45" src="https://github.com/sammaxfleet/Battleships/assets/114914739/cd5fa14f-43d0-4b77-beb7-5d909a690008">
+
+
 
 
 
