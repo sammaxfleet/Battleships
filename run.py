@@ -23,7 +23,7 @@ def run_game():
                 "1. Firstly the Battleships are invisible!! \n",
                 "2. The board will tell you if your shot has hit! \n",
                 "3. a H is for hit & an M for miss! \n",
-                "4. To start choose the size of your Grid choose between 3 & 10 \n",
+                "4. To start choose a GridSize between 3 & 10 \n",
                 "5. The game gets harder the bigger the grid \n",
                 "6. You get as many tries as the size of your grid chosen \n",
                 "7. Guess row & Column to shoot missile between 1 & 10 \n",
@@ -34,8 +34,8 @@ def run_game():
                 GRID_SIZE = input("Enter a gridsize between 3 & 10: ")
                 GRID_SIZE = int(GRID_SIZE)
             except ValueError:
-                    print("Value error please try again")
-                    run_game()
+                print("Value error please try again")
+                run_game()
 
             if GRID_SIZE < 3 or GRID_SIZE > 10:
                 print("You did not enter a correct gridsize please try again!")
