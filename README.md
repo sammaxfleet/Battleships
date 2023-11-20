@@ -235,6 +235,15 @@ PEP 8
 Duriing the testing my main error was that my lines of code were too long so I asked the tutors from code institute to help with 
 breaking a line.
 
+HTML
+CSS 
+JAVASCRIPT
+
+PEP 8 - TESTED & NO ERRORS  <img width="1183" alt="Screenshot 2023-11-19 at 23 05 04" src="https://github.com/sammaxfleet/Battleships/assets/114914739/29295c34-8167-4616-b378-97d10ed3afa0">
+
+
+
+
 This was shown with Python Linter & pycodestyle. 
 
 <img width="544" alt="Screenshot 2023-08-04 at 10 01 23" src="https://github.com/sammaxfleet/Battleships/assets/114914739/c45341ac-aaa2-4b59-a067-3d008ceba22f">
@@ -272,6 +281,8 @@ Use the following steps to deploy the poject to Heroku:
 12. Wait for the app to build and then click on the "View" link.
 
 
+## Local Deployment 
+
 You can fork the repository by following these steps:
 
 Go to the GitHub repository.
@@ -292,7 +303,7 @@ The Game is fully functional and deployed by Heroku.
 <img width="761" alt="Screenshot 2023-11-19 at 16 39 59" src="https://github.com/sammaxfleet/Battleships/assets/114914739/143fb2c3-2580-4dba-bbf2-a5898d0c8dc8">
 
 
-## Local Deployment 
+
 
 
 # Credits & Acknowledgment -
