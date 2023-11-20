@@ -31,7 +31,9 @@ Submission 3
 
 #  Responsiveness -
 
-<img width="1031" alt="Screenshot 2023-11-20 at 10 20 00" src="https://github.com/sammaxfleet/Battleships/assets/114914739/278f29d6-5240-4185-be2e-94fd79a100e3">
+<img width="985" alt="Screenshot 2023-11-20 at 10 29 06" src="https://github.com/sammaxfleet/Battleships/assets/114914739/f050e4d2-558e-4e38-b217-213fd596755f">
+
+
 
 
 
