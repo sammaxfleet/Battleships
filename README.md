@@ -31,12 +31,38 @@ Submission 3
 
 #  Responsiveness -
 
-<img width="1108" alt="Screenshot 2023-08-04 at 10 15 05" src="https://github.com/sammaxfleet/Battleships/assets/114914739/2e7f39a9-cb01-4f8f-9954-3990277bc287">
+<img width="985" alt="Screenshot 2023-11-20 at 10 29 06" src="https://github.com/sammaxfleet/Battleships/assets/114914739/f050e4d2-558e-4e38-b217-213fd596755f">
+
+
+
 
 
 # Table Of Contents - 
 
-
+- [BATTLESHIPS GAME | PROJECT 3 CODE INSTITUTE PYTHON ESSENTIALS](#battleships-game---project-3-code-institute-python-essentials)
+- [Links for Project](#links-for-project)
+  * [Things I've worked on since the last submission.](#things-i-ve-worked-on-since-the-last-submission)
+- [Responsiveness -](#responsiveness--)
+- [Table Of Contents -](#table-of-contents--)
+- [Creators Goal & Description -](#creators-goal---description--)
+  * [Planning Phase -](#planning-phase--)
+- [Game creation breakdown -](#game-creation-breakdown--)
+- [Flow chart  -](#flow-chart---)
+- [Game Layout](#game-layout)
+  * [Welcome Message -](#welcome-message--)
+  * [Answer NO -](#answer-no--)
+- [Answer Yes & Rules](#answer-yes---rules)
+- [Choosing Grid Size](#choosing-grid-size)
+  * [Guess row & guess Column SHOTS](#guess-row---guess-column-shots)
+  * [Amount of Tries & Gameover](#amount-of-tries---gameover)
+- [Testing](#testing)
+  * [User Stories](#user-stories)
+- [Bugs & how they were fixed.](#bugs---how-they-were-fixed)
+- [Validation -](#validation--)
+- [Deployment -](#deployment--)
+  * [Heroku Deployment](#heroku-deployment)
+  * [Local Deployment](#local-deployment)
+- [Credits & Acknowledgment -](#credits---acknowledgment--)
 
 
 
@@ -137,7 +163,6 @@ Rules...
  8. After your tries are complete it will be GameOver 
 
 
-
 # Choosing Grid Size
 
 <img width="609" alt="Screenshot 2023-11-19 at 16 11 52" src="https://github.com/sammaxfleet/Battleships/assets/114914739/cf4c933b-f522-44b2-b771-4834723d5c69">
@@ -160,13 +185,12 @@ The amount of tries matches to the gridsize as explained in the rules. After the
 
 
 
-
 # Testing 
 
 ## User Stories
 
 
-Issue
+   Epic
 
 1. To create a Welcome Message
 
@@ -174,6 +198,7 @@ Issue
 
    A message the tells the User the game is starting, that is friendly and inviting for the user to start the game.
 
+   Epic
    
 2. To Explain the Rules
 
@@ -182,6 +207,7 @@ Issue
    To Explain the rules before the game starts, have a simplified way of explaining the rules. Maybe bullet points would be good and a YES/NO to continue with a loop!
    Make the points short and snappy so the user can understand. 
 
+   Epic
    
 3. To allow the user to choose the Gridd size depending on the difficult they wish to play
 
@@ -190,32 +216,42 @@ Issue
    Difficulty level being able to be chosen with the board size being adaptable between 3 & 10!
    A grid of 1 is not possible to play this game so 3-10 is ideal.
 
-4. Create the Game Board
+   Epic
+   
+5. Create the Game Board
 
    User Story:
 
    Decide how the game board is going to look maybe it being represented by "- and a "#" or '+' on the corners is great.
    Something visual  and bold so the users can see end of the grid clearly to know where to shoot.
 
-5. Create the battleships
+
+   Epic
+   
+6. Create the battleships
    
    User Story:
     1. For the battleships to be visible firslty and change at random every time we rungame function. Maybe create 2/3 battleships.
     2. Then Make Battleships invisible
    
-
+   Epic
+   
 7. Decide how Shots are Represented
 
    User Story: Create shots decide how they're represented. maybe a 'H' for hit or 'M' for miss.
 
      
-
-8.  To have a game over after a certain amount of tries
+   Epic
+   
+8. To have a game over after a certain amount of tries
 
    User story: For the game over to happen after the tries.
 
+
+
+   Epic
    
-8. To have more sufficient error handling and messages 
+10. To have more sufficient error handling and messages 
 
  User Stories for Error handling
 
@@ -228,12 +264,46 @@ Issue
 7. To have clarity and a fluent rythm to the game Overall. 
 
 
+# Bugs & how they were fixed.
 
-# Testing ¶ Validation -
+Bug 1 - 
 
-PEP 8
-Duriing the testing my main error was that my lines of code were too long so I asked the tutors from code institute to help with 
-breaking a line.
+1. Chosing the grid Size and continuing the game.
+
+Fixed -
+
+1. By adding a Try, Except into RunGame function
+
+
+Bug 2 -
+
+1. Shooting the Missiles on a 1 not 0
+
+Fixed -
+
+2. A -1 value was added to the shot value.
+
+
+Bug 3 - 
+
+1. Value error if the User says "no not ready"
+   
+Fixed - 
+
+1. Elif, Else Rule
+
+
+
+Bug 4 - 
+
+1. Max Board size 10 you could put in any input 
+
+Fixed -
+
+1. <1 or >10 Rule to maximum the board size and difficulty for the User
+
+
+
 
 This was shown with Python Linter & pycodestyle. 
 
@@ -249,12 +319,24 @@ https://extendsclass.com/python-tester.html
 https://pep8ci.herokuapp.com/#
 
 
-# Error Handling 
+# Validation -
+
+PEP 8
+Duriing the testing my main error was that my lines of code were too long so I asked the tutors from code institute to help with 
+breaking a line.
+
+HTML
+CSS 
+JAVASCRIPT
+
+PEP 8 - TESTED & NO ERRORS  <img width="1183" alt="Screenshot 2023-11-19 at 23 05 04" src="https://github.com/sammaxfleet/Battleships/assets/114914739/29295c34-8167-4616-b378-97d10ed3afa0">
 
 
 
 
 # Deployment -
+
+## Heroku Deployment 
 
 
 Use the following steps to deploy the poject to Heroku:
@@ -272,6 +354,8 @@ Use the following steps to deploy the poject to Heroku:
 12. Wait for the app to build and then click on the "View" link.
 
 
+## Local Deployment 
+
 You can fork the repository by following these steps:
 
 Go to the GitHub repository.
@@ -287,12 +371,32 @@ Type git clone and paste the URL from the clipboard ($ git clone https://github.
 Press Enter to create your local clone.
 
 
+Making a Local Clone
+
+Log in to GitHub and locate the GitHub Repository, under the repository name, click "Code".
+
+To clone the repository using HTTPS, under "HTTPS", copy the link.
+
+Open your local terminal with git installed
+
+Change the current working directory to the location where you want the cloned directory to be created.
+
+Type git clone, and then paste the URL you copied in Step 3.
+
+$ git clone https://github.com/ianmeigh/battleships.git
+Press Enter. Your local clone will be created.
+
+$ git clone https://github.com/ianmeigh/battleships.git
+> Cloning into `test-dir`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
 The Game is fully functional and deployed by Heroku. 
 
 <img width="761" alt="Screenshot 2023-11-19 at 16 39 59" src="https://github.com/sammaxfleet/Battleships/assets/114914739/143fb2c3-2580-4dba-bbf2-a5898d0c8dc8">
 
-
-## Local Deployment 
 
 
 # Credits & Acknowledgment -
@@ -302,9 +406,10 @@ The Game is fully functional and deployed by Heroku.
 - Stackoverflow was great resource.
 - https://www.w3schools.com/ 
 - https://www.geeksforgeeks.org/ understanding how to make battleships invisible 
-- Tutors at code Institute
+- Tutors at code Institute particularly helping with the loops with the rules. 
 - Slack meet with the September intake.
 - My mentor Rory
+
 
 
 
