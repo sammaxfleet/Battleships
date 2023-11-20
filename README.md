@@ -31,12 +31,36 @@ Submission 3
 
 #  Responsiveness -
 
-<img width="1108" alt="Screenshot 2023-08-04 at 10 15 05" src="https://github.com/sammaxfleet/Battleships/assets/114914739/2e7f39a9-cb01-4f8f-9954-3990277bc287">
+<img width="1031" alt="Screenshot 2023-11-20 at 10 20 00" src="https://github.com/sammaxfleet/Battleships/assets/114914739/278f29d6-5240-4185-be2e-94fd79a100e3">
+
 
 
 # Table Of Contents - 
 
-
+- [BATTLESHIPS GAME | PROJECT 3 CODE INSTITUTE PYTHON ESSENTIALS](#battleships-game---project-3-code-institute-python-essentials)
+- [Links for Project](#links-for-project)
+  * [Things I've worked on since the last submission.](#things-i-ve-worked-on-since-the-last-submission)
+- [Responsiveness -](#responsiveness--)
+- [Table Of Contents -](#table-of-contents--)
+- [Creators Goal & Description -](#creators-goal---description--)
+  * [Planning Phase -](#planning-phase--)
+- [Game creation breakdown -](#game-creation-breakdown--)
+- [Flow chart  -](#flow-chart---)
+- [Game Layout](#game-layout)
+  * [Welcome Message -](#welcome-message--)
+  * [Answer NO -](#answer-no--)
+- [Answer Yes & Rules](#answer-yes---rules)
+- [Choosing Grid Size](#choosing-grid-size)
+  * [Guess row & guess Column SHOTS](#guess-row---guess-column-shots)
+  * [Amount of Tries & Gameover](#amount-of-tries---gameover)
+- [Testing](#testing)
+  * [User Stories](#user-stories)
+- [Bugs & how they were fixed.](#bugs---how-they-were-fixed)
+- [Validation -](#validation--)
+- [Deployment -](#deployment--)
+  * [Heroku Deployment](#heroku-deployment)
+  * [Local Deployment](#local-deployment)
+- [Credits & Acknowledgment -](#credits---acknowledgment--)
 
 
 
