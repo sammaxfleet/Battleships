@@ -313,6 +313,8 @@ https://www.geeksforgeeks.org/break-a-long-line-into-multiple-lines-in-python/
 
 <img width="1226" alt="Screenshot 2023-08-04 at 09 58 07" src="https://github.com/sammaxfleet/Battleships/assets/114914739/07d711a3-02eb-4d2b-be4a-109213d81e4e">
 
+Duriing the testing my main error was that my lines of code were too long so I asked the tutors from code institute to help with 
+breaking a line.
 
 https://extendsclass.com/python-tester.html
 
@@ -321,13 +323,12 @@ https://pep8ci.herokuapp.com/#
 
 # Validation -
 
-PEP 8
-Duriing the testing my main error was that my lines of code were too long so I asked the tutors from code institute to help with 
-breaking a line.
 
-HTML
-CSS 
-JAVASCRIPT
+HTML - Nt Required
+
+CSS - Not Required
+
+JAVASCRIPT - Not Required
 
 PEP 8 - TESTED & NO ERRORS  <img width="1183" alt="Screenshot 2023-11-19 at 23 05 04" src="https://github.com/sammaxfleet/Battleships/assets/114914739/29295c34-8167-4616-b378-97d10ed3afa0">
 
@@ -362,36 +363,14 @@ Go to the GitHub repository.
 Click on the Fork button in the upper right-hand corner.
 You can clone the repository by following these steps:
 
-Go to the GitHub repository.
-Locate the Code button above the list of files and click it.
-Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
-Open Git Bash.
-Change the current working directory to the one where you want the cloned directory.
-Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY).
-Press Enter to create your local clone.
 
+1. Locate the Code button above the list of files and click it.
+2. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
+3. Open Git Bash.
+4. Change the current working directory to the one where you want the cloned directory.
+5. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY).
+6. Press Enter to create your local clone.
 
-Making a Local Clone
-
-Log in to GitHub and locate the GitHub Repository, under the repository name, click "Code".
-
-To clone the repository using HTTPS, under "HTTPS", copy the link.
-
-Open your local terminal with git installed
-
-Change the current working directory to the location where you want the cloned directory to be created.
-
-Type git clone, and then paste the URL you copied in Step 3.
-
-$ git clone https://github.com/ianmeigh/battleships.git
-Press Enter. Your local clone will be created.
-
-$ git clone https://github.com/ianmeigh/battleships.git
-> Cloning into `test-dir`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
 
 The Game is fully functional and deployed by Heroku. 
 
