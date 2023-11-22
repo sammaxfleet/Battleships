@@ -361,8 +361,9 @@ You can fork the repository by following these steps:
 
 Go to the GitHub repository.
 Click on the Fork button in the upper right-hand corner.
-You can clone the repository by following these steps:
 
+
+You can clone the repository by following these steps:
 
 1. Locate the Code button above the list of files and click it.
 2. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
@@ -372,7 +373,6 @@ You can clone the repository by following these steps:
 6. Press Enter to create your local clone.
 
 
-The Game is fully functional and deployed by Heroku. 
 
 <img width="761" alt="Screenshot 2023-11-19 at 16 39 59" src="https://github.com/sammaxfleet/Battleships/assets/114914739/143fb2c3-2580-4dba-bbf2-a5898d0c8dc8">
 
